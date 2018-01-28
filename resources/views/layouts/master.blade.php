@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1">
-        <title>SmartVietSolution - Tư vấn thiết kế website chuyên nghiệp</title>
-        <link rel="icon" href="favicon.png" type="image/png">
+        <title>SmartVietSolutoin (SVS) - @yield('title')</title>
+        <link rel="icon" href={{ URL::asset("favicon.png") }} type="image/png">
         <link href={{ URL::asset("css/bootstrap.css") }} rel="stylesheet" type="text/css">
         <link href={{ URL::asset("css/style.css") }} rel="stylesheet" type="text/css">
         <link href={{ URL::asset("css/linecons.css") }} rel="stylesheet" type="text/css">

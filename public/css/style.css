@@ -394,7 +394,7 @@ a.learn_more2:hover{
 	text-align:center;
 }
 .service-list-col1 i{
-	display:;
+	display:block;
 	color:#888;
 	font-family: 'linecons';
 	font-size: 19px;
@@ -900,11 +900,6 @@ img {
 	padding:90px 0 100px;
 }
 
-.main-section.contact{
-	background:url(../img/bg-map.png) left 190px no-repeat;
-}
-
-
 .contact_section{
 	margin:0 0 60px 0;
 	}
@@ -1383,8 +1378,7 @@ img {
 		width:40px;
 		height:40px;
 		margin-top:40px;
-		opacity:0;
-		background:url(images/zoom.png);
+		opacity:0;		
 		background-size:40px 40px;
 		transition:all 0.3s ease 0.1s;
 		-moz-transition:all 0.3s ease 0.2s;

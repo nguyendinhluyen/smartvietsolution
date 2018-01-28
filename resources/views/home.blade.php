@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'Tư vấn thiết kế website chuyên nghiệp')
 @section('content')
 <!--Header_section-->
 <header id="header_outer">
@@ -7,22 +8,22 @@
             <div class="logo"><a href="javascript:void(0)"><img src="img/logob.png" alt=""></a></div>
             <nav class="nav" id="nav">
                 <ul class="toggle">
-                    <li><a href="#top_content">Home</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#work_outer">Work</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#client_outer">Clients</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#top_content">Trang chủ</a></li>
+                    <li><a href="#service">Dịch vụ</a></li>
+                    <li><a href="#work_outer">24/07</a></li>
+                    <li><a href="#Portfolio">Dự án</a></li>
+                    <li><a href="#client_outer">Khách hàng</a></li>
+                    <li><a href="#team">Về SVS</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
                 </ul>
                 <ul class="">
-                    <li><a href="#top_content">Home</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#work_outer">Work</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#client_outer">Clients</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#top_content">Trang chủ</a></li>
+                    <li><a href="#service">Dịch vụ</a></li>
+                    <li><a href="#work_outer">24/07</a></li>
+                    <li><a href="#Portfolio">Dự án</a></li>
+                    <li><a href="#client_outer">Khách hàng</a></li>
+                    <li><a href="#team">Về SVS</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
                 </ul>
             </nav>
             <a class="res-nav_click animated wobble wow" href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
@@ -560,41 +561,22 @@
         offset: 100
     });
     wow.init();
-    document.getElementById('').onclick = function () {
-        var section = document.createElement('section');
-        section.className = 'wow fadeInDown';
-        section.className = 'wow shake';
-        section.className = 'wow zoomIn';
-        section.className = 'wow lightSpeedIn';
-        this.parentNode.insertBefore(section, this);
-    };
 </script>
 <script type="text/javascript">
     $(window).load(function () {
-
         $('a').bind('click', function (event) {
             var $anchor = $(this);
-
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 91
-            }, 1500, 'easeInOutExpo');
-            /*
-             if you don't want to use the easing effects:
-             $('html, body').stop().animate({
-             scrollTop: $($anchor.attr('href')).offset().top
-             }, 1000);
-             */
+            }, 1500, 'easeInOutExpo');            
             event.preventDefault();
         });
     })
 </script>
-
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         // Portfolio Isotope
         var container = $('#portfolio-wrap');
-
-
         container.isotope({
             animationEngine: 'best-available',
             animationOptions: {
@@ -614,13 +596,10 @@
             setProjects();
             return false;
         });
-
-
+        
         function splitColumns() {
             var winWidth = $(window).width(),
                     columnNumb = 1;
-
-
             if (winWidth > 1024) {
                 columnNumb = 4;
             } else if (winWidth > 900) {
