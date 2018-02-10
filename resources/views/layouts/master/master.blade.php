@@ -22,8 +22,10 @@
         <script type="text/javascript" src={{ URL::asset("js/classie.js") }}></script>
         <script type="text/javascript" src={{ URL::asset("js/contactform.js") }}></script>
     </head>
-    <body>        
+    <body>
+        @include('layouts.master.header')
         @yield('content')
+        @include('layouts.master.footer')
     </body>
 </html>
 @yield('scripts')
