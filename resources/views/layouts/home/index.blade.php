@@ -1,5 +1,5 @@
 @extends('layouts.master.master')
-@section('title', 'Tư vấn thiết kế website chuyên nghiệp')
+@section('title', 'Tư vấn thiết kế website chuyên nghiệp | Chuẩn SEO GG - Giao diện đẹp')
 @section('content')
 <!--Top_content-->
 <section id="top_content" class="top_cont_outer">
@@ -9,11 +9,12 @@
                 <div class="row">
                     <div class="col-lg-5 col-sm-7">
                         <div class="top_left_cont flipInY wow animated">
-                            <h3>Colourful &amp; sexy!</h3>
-                            <h2>creating websites that
-                                make you stop &amp; stare</h2>
-                            <p> Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum. </p>
-                            <a href="#service" class="learn_more2">Learn more</a> 
+                            <h2>Khách hàng là số 1</h2>
+                            <h5 class="line-height-25"><b class="pink-color">SmartVietSolution (SVS)</b> định hướng xây dựng thương hiệu bền vững cùng khách hàng.
+                                Chúng tôi luôn luôn đồng hành cùng khách hàng, sự hài lòng từ khách hàng là niềm hạnh phúc đối với <b class="pink-color">SVS</b>.
+                                Mỗi khách hàng là <b class="pink-color">"bạn đồng hành"</b> cùng chung tay với
+                                <b class="pink-color">SVS</b> để xây dựng thương hiệu <b class="pink-color">bền vững, an toàn tuyệt đối</b>.</h5>
+                            <a href="#service" class="learn_more2">Chính sách SVS</a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-sm-5"> </div>
@@ -23,32 +24,36 @@
     </div>
 </section>
 <!--Top_content-->
-
 <!--Service-->
 <section id="service">
     <div class="container">
-        <h2>Services</h2>
+        <h2>Chính sách SVS</h2>
         <div class="service_area">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa-flash"></i></span> </div>
-                        <h3 class="animated fadeInUp wow">Quick TurnAround</h3>
-                        <p class="animated fadeInDown wow">Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        <h3 class="animated fadeInUp wow">Khách hàng là số 1</h3>
+                        <p class="animated fadeInDown wow">Khách hàng có thể liên lạc với <b class="pink-color">SVS</b> bất cứ lúc nào cần hỗ trợ.
+                            <b class="pink-color">SVS</b> đảm bảo hệ thống website khách hàng luôn trong trạng thái sẵn sàng với tính ổn định cao nhất.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa-comments"></i></span> </div>
-                        <h3 class="animated fadeInUp wow">Friendly Support</h3>
-                        <p class="animated fadeInDown wow">Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        <h3 class="animated fadeInUp wow">Bạn đồng hành</h3>
+                        <p class="animated fadeInDown wow">Phương châm khách hàng là <b class="pink-color">"bạn đồng hành"</b>, <b class="pink-color">SVS</b>
+                            không chỉ đơn thuần xây dựng website mà còn hướng tới tư vấn giá trị cốt lõi mà <b class="pink-color">"bạn đồng hành"</b> đang theo đuổi.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-shield"></i></span> </div>
-                        <h3 class="animated fadeInUp wow">top Security</h3>
-                        <p class="animated fadeInDown wow">Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                        <h3 class="animated fadeInUp wow">Bảo mật tuyệt đối</h3>
+                        <p class="animated fadeInDown wow"><b class="pink-color">SVS</b> cung cấp hệ thống website bảo mật tuyệt đối, những thông tin quan trọng đều được
+                            <b class="pink-color">SVS</b> ký kết với <b class="pink-color">"bạn đồng hành"</b>.
+                            <b class="pink-color">SVS</b> tự tin là nhà cung cấp dịch vụ website bảo mật an toàn.</p>
                     </div>
                 </div>
             </div>
@@ -57,106 +62,66 @@
 </section>
 <!--Service-->
 
-<section id="work_outer">
-    <!--main-section-start-->
-    <div class="top_cont_latest">
-        <div class="container">
-            <h2>Latest Work</h2>
-            <div class="work_section">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
-                        <div class="service-list">
-                            <div class="service-list-col1"> <i class="icon-doc"></i> </div>
-                            <div class="service-list-col2">
-                                <h3>Process Walkthrough</h3>
-                                <p>Proin iaculis purus digni consequat sem digni ssim. Donec entum digni ssim.</p>
-                            </div>
-                        </div>
-                        <div class="service-list">
-                            <div class="service-list-col1"> <i class="icon-comment"></i> </div>
-                            <div class="service-list-col2">
-                                <h3>24/7 support</h3>
-                                <p>Proin iaculis purus consequat sem digni ssim. Digni ssim porttitora .</p>
-                            </div>
-                        </div>
-                        <div class="service-list">
-                            <div class="service-list-col1"> <i class="icon-database"></i> </div>
-                            <div class="service-list-col2">
-                                <h3>Hosting & Storage</h3>
-                                <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                            </div>
-                        </div>
-                        <div class="service-list">
-                            <div class="service-list-col1"> <i class="icon-cog"></i> </div>
-                            <div class="service-list-col2">
-                                <h3>Customization options</h3>
-                                <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                            </div>
-                        </div>
-                        <div class="work_bottom"> <span>Ready to take the plunge?</span> <a href="#contact" class="contact_btn">Contact Us</a> </div>
-                    </div>
-                    <figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"> </figure>
-                </div>
-            </div>
-        </div>
-        <!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
-    </div>
-</section>
-<!--main-section-end-->
-
-<!--new_portfolio-->
-
-<!-- Portfolio -->
+<!-- Project -->
 <section id="Portfolio" class="content">
-
     <!-- Container -->
     <div class="container portfolio-title">
-
         <!-- Section Title -->
         <div class="section-title">
-            <h2>Portfolio</h2>
+            <h2>Mẫu thiết kế</h2>
         </div>
         <!--/Section Title -->
-
     </div>
     <!-- Container -->
-
     <div class="portfolio-top"></div>
-
     <!-- Portfolio Plus Filters -->
     <div class="portfolio">
-
         <!-- Portfolio Filters -->
         <div id="filters" class="sixteen columns">
             <ul class="clearfix">
                 <li>
                     <a id="all" href="#" data-filter="*" class="active">
-                        <h5>All</h5>
+                        <h5>Tất cả</h5>
                     </a>
                 </li>
                 <li>
                     <a class="" href="#" data-filter=".branding">
-                        <h5>Branding</h5>
+                        <h5>Thương mai điện tử</h5>
                     </a>
                 </li>
                 <li>
                     <a class="" href="#" data-filter=".design">
-                        <h5>Design</h5>
+                        <h5>Doanh nghiệp</h5>
                     </a>
                 </li>
                 <li>
                     <a class="" href="#" data-filter=".photography">
-                        <h5>Photography</h5>
+                        <h5>Khách sạn</h5>
                     </a>
                 </li>
                 <li>
                     <a class="" href="#" data-filter=".videography">
-                        <h5>Videography</h5>
+                        <h5>Ẩm thực</h5>
                     </a>
                 </li>
                 <li>
                     <a class="" href="#" data-filter=".web">
-                        <h5>Web</h5>
+                        <h5>Du lịch</h5>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="#" data-filter=".technical">
+                        <h5>Công nghệ</h5>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="#" data-filter=".spa">
+                        <h5>Làm đẹp</h5>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="#" data-filter=".spa">
+                        <h5>Bất động sản</h5>
                     </a>
                 </li>
             </ul>
@@ -165,7 +130,6 @@
 
         <!-- Portfolio Wrap -->
         <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap">
-
             <!-- Portfolio Item With PrettyPhoto  -->
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   videography isotope-item">
                 <div class="portfolio-image"> <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"> </div>
@@ -280,46 +244,46 @@
                 </a>
             </div>
             <!--/Portfolio Item With PrettyPhoto  -->
-
         </div>
         <!--/Portfolio Wrap -->
-
     </div>
     <!--/Portfolio Plus Filters -->
-
     <div class="portfolio-bottom"></div>
-
     <!-- Project Page Holder-->
     <div id="project-page-holder">
         <div class="clear"></div>
         <div id="project-page-data"></div>
     </div>
     <!--/Project Page Holder-->
-
 </section>
 <!--/Portfolio -->
+
+
 
 <!--new_portfolio-->
 <section class="main-section" id="client_outer">
     <!--main-section client-part-start-->
-    <h2>Happy Clients</h2>
+    <h2>Marketing Online</h2>
     <div class="client_area ">
         <div class="client_section animated  fadeInUp wow">
             <div class="client_profile">
-                <div class="client_profile_pic"><img src="img/client-pic1.jpg" alt=""></div>
-                <h3>Saul Goodman</h3>
-                <span>Lawless Inc</span> </div>
+                <div class="client_profile_pic"><img src="img/facebook_ads.png" alt="facebook ads"></div>
+                <h3>Quảng cáo Facebook</h3>
+            </div>
             <div class="quote_section">
                 <div class="quote_arrow"></div>
-                <p><b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+                <p>
+                    <b><img src="img/quote_sign_left.png" alt="">
+                    </b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+                </p>
             </div>
             <div class="clear"></div>
         </div>
         <div class="client_section animated  fadeInDown wow">
             <div class="client_profile flt">
-                <div class="client_profile_pic"><img src="img/client-pic2.jpg" alt=""></div>
-                <h3>Marie Schrader</h3>
-                <span>DEA Foundation</span> </div>
+                <div class="client_profile_pic"><img src="img/seo_optimization.png" alt=""></div>
+                <h3>Search Engine Optimization</h3>
+            </div>
             <div class="quote_section flt">
                 <div class="quote_arrow2"></div>
                 <p><b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
@@ -462,7 +426,7 @@
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 91
-            }, 1500, 'easeInOutExpo');            
+            }, 1500, 'easeInOutExpo');
             event.preventDefault();
         });
     })
@@ -490,7 +454,7 @@
             setProjects();
             return false;
         });
-        
+
         function splitColumns() {
             var winWidth = $(window).width(),
                     columnNumb = 1;

@@ -1573,3 +1573,9 @@ i{
 .icon-map-marker:before {
     content: "\f041";
 }
+.line-height-25 {
+    line-height: 25px;
+}
+.pink-color {
+    color: #f56eab;
+}

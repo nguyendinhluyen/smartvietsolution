@@ -9,19 +9,17 @@
             <nav class="nav" id="nav">
                 <ul class="toggle">
                     <li><a href="#top_content">Trang chủ</a></li>
-                    <li><a href="#service">Dịch vụ</a></li>
-                    <li><a href="#work_outer">24/07</a></li>
-                    <li><a href="#Portfolio">Dự án</a></li>
-                    <li><a href="#client_outer">Khách hàng</a></li>
+                    <li><a href="#service">Chính sách SVS</a></li>
+                    <li><a href="#Portfolio">Mẫu thiết kế</a></li>
+                    <li><a href="#client_outer">Marketing Online</a></li>
                     <li><a href="#team">Về SVS</a></li>
                     <li><a href="#contact">Liên hệ</a></li>
                 </ul>
                 <ul>
                     <li><a href="#top_content">Trang chủ</a></li>
-                    <li><a href="#service">Dịch vụ</a></li>
-                    <li><a href="#work_outer">24/07</a></li>
-                    <li><a href="#Portfolio">Dự án</a></li>
-                    <li><a href="#client_outer">Khách hàng</a></li>
+                    <li><a href="#service">Chính sách SVS</a></li>
+                    <li><a href="#Portfolio">Mẫu thiết kế</a></li>
+                    <li><a href="#client_outer">Marketing Online</a></li>
                     <li><a href="#team">Về SVS</a></li>
                     <li><a href="#contact">Liên hệ</a></li>
                 </ul>
