@@ -3,7 +3,7 @@
         <div class="header_section">
             <div class="logo">
                 <a href="{{ Request::url() }}">
-                    <img class="img-logo" src="img/logob.png" alt="logo">
+                    <img class="img-logo" src="img/logob.png" alt="logo" width="200px">
                 </a>
             </div>
             <nav class="nav" id="nav">

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1">
-        <title>SmartVietSolutoin (SVS) - @yield('title')</title>
+        <title>@yield('title')</title>
         <meta name="description" content="SmartVietSolution chuyên cung cấp dịch vụ website, dịch vụ">
         <meta name="keywords">
         <meta name="author">        

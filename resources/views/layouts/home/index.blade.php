@@ -10,10 +10,11 @@
                     <div class="col-lg-5 col-sm-7">
                         <div class="top_left_cont flipInY wow animated">
                             <h2>Khách hàng là số 1</h2>
-                            <h5 class="line-height-25"><b class="pink-color">SmartVietSolution (SVS)</b> định hướng xây dựng thương hiệu bền vững cùng khách hàng.
-                                Chúng tôi luôn luôn đồng hành cùng khách hàng, sự hài lòng từ khách hàng là niềm hạnh phúc đối với <b class="pink-color">SVS</b>.
+                            <h4 class="line-height-30"><b class="pink-color">SmartVietSolution (SVS)</b> hướng tới việc xây dựng website và định hướng thương hiệu cho khách hàng.
+                                Chúng tôi cam kết đồng hành cùng khách hàng để tạo ra giá trị cốt lõi cho doanh nghiệp.
                                 Mỗi khách hàng là <b class="pink-color">"bạn đồng hành"</b> cùng chung tay với
-                                <b class="pink-color">SVS</b> để xây dựng thương hiệu <b class="pink-color">bền vững, an toàn tuyệt đối</b>.</h5>
+                                <b class="pink-color">SVS</b> để tạo ra giá trị <b class="pink-color">bền vững, an toàn và bảo mật cao</b>.                                
+                            </h4>
                             <a href="#service" class="learn_more2">Chính sách SVS</a>
                         </div>
                     </div>
@@ -34,7 +35,7 @@
                     <div class="service_block">
                         <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa-flash"></i></span> </div>
                         <h3 class="animated fadeInUp wow">Khách hàng là số 1</h3>
-                        <p class="animated fadeInDown wow">Khách hàng có thể liên lạc với <b class="pink-color">SVS</b> bất cứ lúc nào cần hỗ trợ.
+                        <p class="animated fadeInDown wow line-height-25">Khách hàng có thể liên lạc với <b class="pink-color">SVS</b> bất cứ lúc nào cần hỗ trợ 24/07.
                             <b class="pink-color">SVS</b> đảm bảo hệ thống website khách hàng luôn trong trạng thái sẵn sàng với tính ổn định cao nhất.</p>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                     <div class="service_block">
                         <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa-comments"></i></span> </div>
                         <h3 class="animated fadeInUp wow">Bạn đồng hành</h3>
-                        <p class="animated fadeInDown wow">Phương châm khách hàng là <b class="pink-color">"bạn đồng hành"</b>, <b class="pink-color">SVS</b>
+                        <p class="animated fadeInDown wow line-height-25">Phương châm khách hàng là <b class="pink-color">"bạn đồng hành"</b>, <b class="pink-color">SVS</b>
                             không chỉ đơn thuần xây dựng website mà còn hướng tới tư vấn giá trị cốt lõi mà <b class="pink-color">"bạn đồng hành"</b> đang theo đuổi.
                         </p>
                     </div>
@@ -51,9 +52,8 @@
                     <div class="service_block">
                         <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-shield"></i></span> </div>
                         <h3 class="animated fadeInUp wow">Bảo mật tuyệt đối</h3>
-                        <p class="animated fadeInDown wow"><b class="pink-color">SVS</b> cung cấp hệ thống website bảo mật tuyệt đối, những thông tin quan trọng đều được
-                            <b class="pink-color">SVS</b> ký kết với <b class="pink-color">"bạn đồng hành"</b>.
-                            <b class="pink-color">SVS</b> tự tin là nhà cung cấp dịch vụ website bảo mật an toàn.</p>
+                        <p class="animated fadeInDown wow line-height-25"><b class="pink-color">SVS</b> ký kết bảo mật với <b class="pink-color">"bạn đồng hành"</b> những thông tin quan trọng, riêng tư.
+                        <b class="pink-color">SVS</b> tự tin là nhà cung cấp dịch vụ website bảo mật, an toàn với độ tin cậy cao.</p>
                     </div>
                 </div>
             </div>
@@ -66,10 +66,8 @@
 <section id="Portfolio" class="content">
     <!-- Container -->
     <div class="container portfolio-title">
-        <!-- Section Title -->
-        <div class="section-title">
-            <h2>Mẫu thiết kế</h2>
-        </div>
+        <!-- Section Title -->        
+        <h2>Mẫu thiết kế</h2>       
         <!--/Section Title -->
     </div>
     <!-- Container -->
@@ -259,7 +257,6 @@
 <!--/Portfolio -->
 
 
-
 <!--new_portfolio-->
 <section class="main-section" id="client_outer">
     <!--main-section client-part-start-->
@@ -273,8 +270,11 @@
             <div class="quote_section">
                 <div class="quote_arrow"></div>
                 <p>
-                    <b><img src="img/quote_sign_left.png" alt="">
-                    </b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+                    <b><img src="img/quote_sign_left.png" alt=""></b>
+                    Facebook ads là hệ thống quảng cáo cho phép nhà tài trợ giới thiệu sản phẩm, dịch vụ tới các thành viên sử dụng Facebook
+                    . Tuỳ theo gói tài chính và định hướng thương hiệu,
+                    <span class="pink-color text-bold">SVS</span> sẽ tư vấn trọn gói dịch vụ chạy facebook ads.
+                    <small><img src="img/quote_sign_right.png" alt=""></small>
                 </p>
             </div>
             <div class="clear"></div>
@@ -286,7 +286,12 @@
             </div>
             <div class="quote_section flt">
                 <div class="quote_arrow2"></div>
-                <p><b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+                <p><b><img src="img/quote_sign_left.png" alt=""></b>
+                    <span class="pink-color text-bold">SVS</span> tự tin đem đến dịch vụ <span class="pink-color text-bold">SEO ON PAGE</span> cực kỳ hiểu quả và uy tính
+                . Với kinh nghiệm trên 4 năm cho các khách hàng khác nhau với nhiều lịch vực như
+                : thương mại điện tử, khách sạn, du lịch v.v... <span class="pink-color text-bold">SVS</span> luôn sáng tạo, đổi mới với mục đích duy nhất là thoả mãn nhu cầu từ khách hàng.
+                <small><img src="img/quote_sign_right.png" alt=""></small>
+                </p>
             </div>
             <div class="clear"></div>
         </div>
@@ -294,8 +299,8 @@
 </section>
 <!--main-section client-part-end-->
 
-<div class="c-logo-part">
-    <!--c-logo-part-start-->
+<!--c-logo-part-start-->
+<div class="c-logo-part">    
     <div class="container">
         <ul class="delay-06s animated  bounce wow">
             <li><a href="javascript:void(0)"><img src="img/c-liogo1.png" alt=""></a></li>
@@ -306,16 +311,16 @@
     </div>
 </div>
 <!--c-logo-part-end-->
+
 <section class="main-section team" id="team">
     <!--main-section team-start-->
     <div class="container">
-        <h2>Amazing Team</h2>
-        <h6>Take a closer look into our amazing team. We won’t bite.</h6>
+        <h2>Về SVS</h2>        
         <div class="team-leader-block clearfix">
             <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-03s">
                     <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
-                    <img src="img/team-leader-pic1.jpg" alt="">
+                    <img src="img/luyennguyen.jpg" alt="team member" width="100%">
                     <ul>
                         <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
                         <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
@@ -323,14 +328,15 @@
                         <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
                     </ul>
                 </div>
-                <h3 class="wow fadeInDown delay-03s">Walter White</h3>
-                <span class="wow fadeInDown delay-03s">Chief Executive Officer</span>
-                <p class="wow fadeInDown delay-03s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+                <h3 class="wow fadeInDown delay-03s">Luyến Nguyễn</h3>
+                <span class="wow fadeInDown delay-03s">CEO/Developer</span>
+                <p class="wow fadeInDown delay-03s">Kinh nghiệm 5 năm phát triển ứng dụng web cho công ty Thuỵ Sĩ, Nhật, Singapore, Việt Nam. 
+                    Chịu trách nhiệm xây dựng kiến trúc hệ thống.</p>
             </div>
             <div class="team-leader-box">
                 <div class="team-leader  wow fadeInDown delay-06s">
                     <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
-                    <img src="img/team-leader-pic2.jpg" alt="">
+                    <img src="img/duypham.jpg" alt="team member" width="100%">
                     <ul>
                         <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
                         <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
@@ -338,14 +344,15 @@
                         <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
                     </ul>
                 </div>
-                <h3 class="wow fadeInDown delay-06s">Jesse Pinkman</h3>
-                <span class="wow fadeInDown delay-06s">Product Manager</span>
-                <p class="wow fadeInDown delay-06s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+                <h3 class="wow fadeInDown delay-06s">Duy Phạm</h3>
+                <span class="wow fadeInDown delay-06s">Co-founder/Marketing</span>
+                <p class="wow fadeInDown delay-06s">Kinh nghiệm 5 năm trong lĩnh vực digital marketing. 
+                    Chịu trách nhiệm xây dựng thương hiệu, giá trị cốt lõi mà doanh nghiệp hướng tới.</p>
             </div>
             <div class="team-leader-box">
                 <div class="team-leader wow fadeInDown delay-09s">
                     <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
-                    <img src="img/team-leader-pic3.jpg" alt="">
+                    <img src="img/baotrang.jpg" alt="team member" width="100%">
                     <ul>
                         <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
                         <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
@@ -353,9 +360,10 @@
                         <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
                     </ul>
                 </div>
-                <h3 class="wow fadeInDown delay-09s">Skyler white</h3>
-                <span class="wow fadeInDown delay-09s">Accountant</span>
-                <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+                <h3 class="wow fadeInDown delay-09s">Bảo Trang</h3>
+                <span class="wow fadeInDown delay-09s">Co-founder/Developer</span>
+                <p class="wow fadeInDown delay-09s">Kinh nghiệm 5 năm trong phát triển ứng dụng ngân hàng lớn ở thị trường Việt Nam. 
+                    Chịu trách nhiệm bảo trì hệ thống hoạt động ổn định, bảo mật.</p>
             </div>
         </div>
     </div>
@@ -366,8 +374,9 @@
     <!--twitter-feed-->
     <div class="container  animated fadeInDown delay-07s wow">
         <div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>
-        <p> When you're the underdog, your only option is to make #waves if you want to succeed. How much <br> and how often should you be drinking coffee?</p>
-        <span>About 28 mins ago</span> </div>
+        <h1 class="line-height-30">SmartVietSolution (SVS) chuyên thiết kế website chuyên nghiệp, bảo mật và an toàn tuyệt đối với giá cả hợp lý.
+        SVS chuyên tư vấn cho doanh nghiệp vừa và nhỏ với định hướng giá trị cốt lõi cho khách hàng thông qua hình ảnh website.</h1>
+    </div>
 </section>
 <!--twitter-feed-end-->
 

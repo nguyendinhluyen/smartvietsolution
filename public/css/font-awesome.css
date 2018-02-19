@@ -1576,6 +1576,12 @@ i{
 .line-height-25 {
     line-height: 25px;
 }
+.line-height-30 {
+    line-height: 30px;
+}
 .pink-color {
     color: #f56eab;
+}
+.text-bold {
+    font-weight: bold;
 }
