@@ -1579,8 +1579,9 @@ i{
 .line-height-30 {
     line-height: 30px;
 }
-.pink-color {
-    color: #f56eab;
+.black-color {   
+    color:#000;
+    
 }
 .text-bold {
     font-weight: bold;

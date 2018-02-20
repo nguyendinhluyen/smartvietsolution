@@ -10,10 +10,10 @@
                     <div class="col-lg-5 col-sm-7">
                         <div class="top_left_cont flipInY wow animated">
                             <h2>Khách hàng là số 1</h2>
-                            <h4 class="line-height-30"><b class="pink-color">SmartVietSolution (SVS)</b> hướng tới việc xây dựng website và định hướng thương hiệu cho khách hàng.
+                            <h4 class="line-height-30"><b class="black-color">SmartVietSolution (SVS)</b> hướng tới việc xây dựng website và định hướng thương hiệu cho khách hàng.
                                 Chúng tôi cam kết đồng hành cùng khách hàng để tạo ra giá trị cốt lõi cho doanh nghiệp.
-                                Mỗi khách hàng là <b class="pink-color">"bạn đồng hành"</b> cùng chung tay với
-                                <b class="pink-color">SVS</b> để tạo ra giá trị <b class="pink-color">bền vững, an toàn và bảo mật cao</b>.                                
+                                Mỗi khách hàng là <b class="black-color">"bạn đồng hành"</b> cùng chung tay với
+                                <b class="black-color">SVS</b> để tạo ra giá trị <b class="black-color">bền vững, an toàn và bảo mật cao</b>.                                
                             </h4>
                             <a href="#service" class="learn_more2">Chính sách SVS</a>
                         </div>
@@ -35,16 +35,16 @@
                     <div class="service_block">
                         <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa-flash"></i></span> </div>
                         <h3 class="animated fadeInUp wow">Khách hàng là số 1</h3>
-                        <p class="animated fadeInDown wow line-height-25">Khách hàng có thể liên lạc với <b class="pink-color">SVS</b> bất cứ lúc nào cần hỗ trợ 24/07.
-                            <b class="pink-color">SVS</b> đảm bảo hệ thống website khách hàng luôn trong trạng thái sẵn sàng với tính ổn định cao nhất.</p>
+                        <p class="animated fadeInDown wow line-height-25">Khách hàng có thể liên lạc với <b class="black-color">SVS</b> bất cứ lúc nào cần hỗ trợ 24/07.
+                            <b class="black-color">SVS</b> đảm bảo hệ thống website khách hàng luôn trong trạng thái sẵn sàng với tính ổn định cao nhất.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa-comments"></i></span> </div>
                         <h3 class="animated fadeInUp wow">Bạn đồng hành</h3>
-                        <p class="animated fadeInDown wow line-height-25">Phương châm khách hàng là <b class="pink-color">"bạn đồng hành"</b>, <b class="pink-color">SVS</b>
-                            không chỉ đơn thuần xây dựng website mà còn hướng tới tư vấn giá trị cốt lõi mà <b class="pink-color">"bạn đồng hành"</b> đang theo đuổi.
+                        <p class="animated fadeInDown wow line-height-25">Phương châm khách hàng là <b class="black-color">"bạn đồng hành"</b>, <b class="black-color">SVS</b>
+                            không chỉ đơn thuần xây dựng website mà còn hướng tới tư vấn giá trị cốt lõi mà <b class="black-color">"bạn đồng hành"</b> đang theo đuổi.
                         </p>
                     </div>
                 </div>
@@ -52,8 +52,8 @@
                     <div class="service_block">
                         <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-shield"></i></span> </div>
                         <h3 class="animated fadeInUp wow">Bảo mật tuyệt đối</h3>
-                        <p class="animated fadeInDown wow line-height-25"><b class="pink-color">SVS</b> ký kết bảo mật với <b class="pink-color">"bạn đồng hành"</b> những thông tin quan trọng, riêng tư.
-                        <b class="pink-color">SVS</b> tự tin là nhà cung cấp dịch vụ website bảo mật, an toàn với độ tin cậy cao.</p>
+                        <p class="animated fadeInDown wow line-height-25"><b class="black-color">SVS</b> ký kết bảo mật với <b class="black-color">"bạn đồng hành"</b> những thông tin quan trọng, riêng tư.
+                        <b class="black-color">SVS</b> tự tin là nhà cung cấp dịch vụ website bảo mật, an toàn với độ tin cậy cao.</p>
                     </div>
                 </div>
             </div>
@@ -273,7 +273,7 @@
                     <b><img src="img/quote_sign_left.png" alt=""></b>
                     Facebook ads là hệ thống quảng cáo cho phép nhà tài trợ giới thiệu sản phẩm, dịch vụ tới các thành viên sử dụng Facebook
                     . Tuỳ theo gói tài chính và định hướng thương hiệu,
-                    <span class="pink-color text-bold">SVS</span> sẽ tư vấn trọn gói dịch vụ chạy facebook ads.
+                    <span class="black-color text-bold">SVS</span> sẽ tư vấn trọn gói dịch vụ chạy facebook ads.
                     <small><img src="img/quote_sign_right.png" alt=""></small>
                 </p>
             </div>
@@ -287,9 +287,9 @@
             <div class="quote_section flt">
                 <div class="quote_arrow2"></div>
                 <p><b><img src="img/quote_sign_left.png" alt=""></b>
-                    <span class="pink-color text-bold">SVS</span> tự tin đem đến dịch vụ <span class="pink-color text-bold">SEO ON PAGE</span> cực kỳ hiểu quả và uy tính
+                    <span class="black-color text-bold">SVS</span> tự tin đem đến dịch vụ <span class="black-color text-bold">SEO ON PAGE</span> cực kỳ hiểu quả và uy tính
                 . Với kinh nghiệm trên 4 năm cho các khách hàng khác nhau với nhiều lịch vực như
-                : thương mại điện tử, khách sạn, du lịch v.v... <span class="pink-color text-bold">SVS</span> luôn sáng tạo, đổi mới với mục đích duy nhất là thoả mãn nhu cầu từ khách hàng.
+                : thương mại điện tử, khách sạn, du lịch v.v... <span class="black-color text-bold">SVS</span> luôn sáng tạo, đổi mới với mục đích duy nhất là thoả mãn nhu cầu từ khách hàng.
                 <small><img src="img/quote_sign_right.png" alt=""></small>
                 </p>
             </div>
@@ -373,7 +373,7 @@
 <section class="twitter-feed">
     <!--twitter-feed-->
     <div class="container  animated fadeInDown delay-07s wow">
-        <div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>
+        <!--<div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>-->
         <h1 class="line-height-30">SmartVietSolution (SVS) chuyên thiết kế website chuyên nghiệp, bảo mật và an toàn tuyệt đối với giá cả hợp lý.
         SVS chuyên tư vấn cho doanh nghiệp vừa và nhỏ với định hướng giá trị cốt lõi cho khách hàng thông qua hình ảnh website.</h1>
     </div>
