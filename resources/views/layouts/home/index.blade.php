@@ -375,7 +375,7 @@
     <div class="container  animated fadeInDown delay-07s wow">
         <!--<div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>-->
         <h1 class="line-height-30">SmartVietSolution (SVS) chuyên thiết kế website chuyên nghiệp, bảo mật và an toàn tuyệt đối với giá cả hợp lý.
-        SVS chuyên tư vấn cho doanh nghiệp vừa và nhỏ với định hướng giá trị cốt lõi cho khách hàng thông qua hình ảnh website.</h1>
+        SVS tư vấn cho doanh nghiệp vừa và nhỏ những định hướng, giá trị cốt lõi thông qua hình ảnh website.</h1>
     </div>
 </section>
 <!--twitter-feed-end-->
