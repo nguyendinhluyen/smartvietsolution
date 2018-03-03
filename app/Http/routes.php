@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', ['as' => 'home', 'uses' => function () {
     return view('layouts/home/index');
-});
+}]);
+Route::post('contact/save', ['as' => 'server.contact.save', 'uses' => 'Server\ContactController@SaveContact']);
