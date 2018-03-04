@@ -45,19 +45,19 @@
                         <div id="errormessage"></div>
                         <!--{!! Form::open(array('url' => route('server.contact.save'))) !!}-->
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Họ tên" data-rule="minlen:4" data-msg="Vui lòng nhập ho tên" />
+                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Họ tên" data-rule="required" data-msg="Vui lòng nhập ho tên" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Vui lòng nhập đúng địa chỉ email" />
+                            <input type="phone" class="form-control input-text" name="phone" id="phone" placeholder="Số điện thoại" data-rule="required" data-msg="Vui lòng nhập đúng số điện thoại" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Tiêu đề" data-rule="minlen:4" data-msg="Vui lòng nhập tiêu đề" />
+                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Email" data-rule="required" data-msg="Vui lòng nhập đúng địa chỉ email" />
                             <div class="validation"></div>
-                        </div>
+                        </div>                        
                         <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Vui lòng nhập nội dung" placeholder="Nội dung"></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Vui lòng nhập nội dung" placeholder="Nội dung"></textarea>
                             <div class="validation"></div>
                         </div>
                         {!! Form::button('Gửi báo giá', array('type' => 'submit', 'class' => 'btn input-btn btnSave')) !!}
@@ -69,7 +69,7 @@
     </div>
     <div class="container">
         <div class="footer_bottom">
-            <span>© 2018 SmartVietSolution - Công ty TNHH Kỹ Thuật Số Giải Pháp Việt</span>
+            <span>© 2018 SmartVietSolution - Công ty TNHH Giải Pháp Việt</span>
         </div>
     </div>
 </footer>

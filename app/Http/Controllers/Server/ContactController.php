@@ -8,9 +8,11 @@ use Illuminate\Http\Response;
 
 class ContactController extends BaseController {
 
-    public function SaveContact(Request $request) {        
-        $data = "demo";
-        return response()->json(['success' => true]);        
+    public function SaveContact(Request $request) {
+
+        return $request->name;
+
+        return response()->json(['success' => true]);
         //return redirect()->route('home'); // go to homepage
     }
 

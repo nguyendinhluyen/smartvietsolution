@@ -40,13 +40,11 @@ $(document).ready(function (e) {
 
 });
 
-
 wow = new WOW({
     animateClass: 'animated',
     offset: 100
 });
 wow.init();
-
 
 $(window).load(function () {
     $('a').bind('click', function (event) {
@@ -57,7 +55,6 @@ $(window).load(function () {
         event.preventDefault();
     });
 })
-
 
 jQuery(document).ready(function ($) {
     // Portfolio Isotope
@@ -136,23 +133,29 @@ $(document).on('click', '.btnSave', function (e) {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    
+
     name = $('#name').val();
-    
+    phone = $('#phone').val();
+    email = $('#email').val();
+    message = $('#message').val();
+
     $.ajax({
         url: "contact/save",
-        method: "POST",        
+        method: "POST",
         data: {
-            demo: "demo"
+            name: name,
+            phone: phone,
+            email: email,
+            message: message
         },
         dataType: "json",
         success: function (success) {
             //alert(success);
         },
-        error: function (success) {            
+        error: function (success) {
 //            var alertmodal = $('#alertModal');
 //            alertmodal.find('.modal-body').text('Unable to globaly update order status');
 //            alertmodal.modal('show');
         }
-    })
+    });
 });
