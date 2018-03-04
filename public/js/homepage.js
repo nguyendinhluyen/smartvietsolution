@@ -133,5 +133,28 @@ $(window).load(function () {
 });
 
 $(document).on('click', '.btnSave', function (e) {
-    alert("123");   
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    
+    name = $('#name').val();
+    
+    $.ajax({
+        url: "contact/save",
+        method: "POST",        
+        data: {
+            demo: "demo"
+        },
+        dataType: "json",
+        success: function (success) {
+            //alert(success);
+        },
+        error: function (success) {            
+//            var alertmodal = $('#alertModal');
+//            alertmodal.find('.modal-body').text('Unable to globaly update order status');
+//            alertmodal.modal('show');
+        }
+    })
 });

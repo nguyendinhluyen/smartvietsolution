@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class ContactController extends BaseController {
-    
+
     public function SaveContact(Request $request) {        
         $data = "demo";
-        // Save data
-        return redirect()->route('home'); // go to homepage
+        return response()->json(['success' => true]);        
+        //return redirect()->route('home'); // go to homepage
     }
 
 }
