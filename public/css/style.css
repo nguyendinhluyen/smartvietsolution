@@ -621,8 +621,7 @@ img {
 
 .quote_section.flt{
     float:left;
-    margin-left: 0px;
-    width: 710px;
+    margin-left: 0px;    
 }
 
 .quote_section p{
@@ -1699,4 +1698,7 @@ div.mc-image {
 .in-slide-content div.info-slide:hover h2, .in-slide-content div.info-slide:hover p {
     display:inherit;
     padding:0;
+}
+.logo_framework {
+    margin-top: 60px;    
 }

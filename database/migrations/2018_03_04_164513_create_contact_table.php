@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddPasswordColumnToUser extends Migration {
+class CreateContactTable extends Migration {
 
     /**
      * Run the migrations.
@@ -11,8 +11,13 @@ class AddPasswordColumnToUser extends Migration {
      * @return void
      */
     public function up() {
-        Schema::table('user', function ($table) {
-            $table->string('password');
+        Schema::create('contact', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+            $table->string('phone');
+            $table->string('email');
+            $table->text('message'); 
+            $table->timestamps();
         });
     }
 

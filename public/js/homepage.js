@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template in the editor.c-logo-part
  */
 $(document).ready(function (e) {
     $('.res-nav_click').click(function () {
@@ -133,12 +133,10 @@ $(document).on('click', '.btnSave', function (e) {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-
     name = $('#name').val();
     phone = $('#phone').val();
     email = $('#email').val();
     message = $('#message').val();
-
     $.ajax({
         url: "contact/save",
         method: "POST",
@@ -149,8 +147,12 @@ $(document).on('click', '.btnSave', function (e) {
             message: message
         },
         dataType: "json",
-        success: function (success) {
-            //alert(success);
+        success: function (data) {
+            if(data.success === true) {
+                alert(data.success);
+            } else {
+
+            }
         },
         error: function (success) {
 //            var alertmodal = $('#alertModal');

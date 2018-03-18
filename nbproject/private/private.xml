@@ -3,14 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/public/css/style.css</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/app/User.php</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/resources/views/layouts/master/header.blade.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/public/css/style.css</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/resources/views/layouts/home/index.blade.php</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/public/js/homepage.js</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/resources/views/layouts/master/footer.blade.php</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/app/Http/Controllers/Server/ContactController.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/resources/views/layouts/popup/info.blade.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/database/migrations/2018_03_04_164513_create_contact_table.php</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/resources/views/layouts/master/master.blade.php</file>
-            <file>file:/Applications/XAMPP/xamppfiles/htdocs/smartvietsolution/app/Http/routes.php</file>
         </group>
     </open-files>
 </project-private>

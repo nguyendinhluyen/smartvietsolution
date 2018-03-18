@@ -32,7 +32,7 @@
     <body>
         @include('layouts.master.header')
         @yield('content')
-        @include('layouts.master.footer')
+        @include('layouts.master.footer')        
     </body>
 </html>
 @yield('scripts')

@@ -269,7 +269,7 @@
     <div class="client_area ">
         <div class="client_section animated  fadeInUp wow">
             <div class="client_profile">
-                <div class="client_profile_pic"><img src="img/facebook_ads.png" alt="facebook ads"></div>                
+                <div class="client_profile_pic"><img src="img/facebook_ads.png" alt="facebook ads"></div>
             </div>
             <div class="quote_section">
                 <div class="quote_arrow"></div>
@@ -285,13 +285,13 @@
         </div>
         <div class="client_section animated  fadeInDown wow">
             <div class="client_profile flt">
-                <div class="client_profile_pic"><img src="img/seo_optimization.png" alt=""></div>                
+                <div class="client_profile_pic"><img src="img/seo_optimization.png" alt=""></div>
             </div>
             <div class="quote_section flt">
                 <div class="quote_arrow2"></div>
                 <p><b><img src="img/quote_sign_left.png" alt=""></b>
-                    <span class="black-color text-bold">SVS</span> tự tin đem đến dịch vụ <span class="black-color text-bold">SEO ON PAGE</span> cực kỳ hiệu quả và uy tín. 
-                    Với kinh nghiệm trên 4 năm cho các khách hàng khác nhau ở nhiều lịch vực như: 
+                    <span class="black-color text-bold">SVS</span> tự tin đem đến dịch vụ <span class="black-color text-bold">SEO ON PAGE</span> cực kỳ hiệu quả và uy tín.
+                    Với kinh nghiệm trên 4 năm cho các khách hàng khác nhau ở nhiều lịch vực như:
                     thương mại điện tử, khách sạn, du lịch v.v... <span class="black-color text-bold">SVS</span> luôn sáng tạo, đổi mới với mục đích duy nhất là thoả mãn nhu cầu từ khách hàng.
                     <small><img src="img/quote_sign_right.png" alt=""></small>
                 </p>
@@ -303,16 +303,7 @@
 <!--main-section client-part-end-->
 
 <!--c-logo-part-start-->
-<div class="c-logo-part">
-    <div class="container">
-        <ul class="delay-06s animated  bounce wow">
-            <li><a href="javascript:void(0)"><img src="img/c-liogo1.png" alt=""></a></li>
-            <li><a href="javascript:void(0)"><img src="img/c-liogo2.png" alt=""></a></li>
-            <li><a href="javascript:void(0)"><img src="img/c-liogo3.png" alt=""></a></li>
-            <li><a href="javascript:void(0)"><img src="img/c-liogo5.png" alt=""></a></li>
-        </ul>
-    </div>
-</div>
+<img src="img/poligan_bg.jpg" alt="các framework hiện đại" class="logo_framework">
 <!--c-logo-part-end-->
 
 <section class="main-section team" id="team">
@@ -382,7 +373,9 @@
     </div>
 </section>
 <!--twitter-feed-end-->
-
+<!--popup-->
+@include('layouts.popup.info')
+<!--end popup-->
 @endsection
 @section('scripts')
 <script src="{{ asset ('js/homepage.js') }}?v={{ time() }}" type="text/javascript"></script>
