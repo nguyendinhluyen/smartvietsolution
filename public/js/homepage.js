@@ -133,31 +133,82 @@ $(document).on('click', '.btnSave', function (e) {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    name = $('#name').val();
-    phone = $('#phone').val();
-    email = $('#email').val();
-    message = $('#message').val();
-    $.ajax({
-        url: "contact/save",
-        method: "POST",
-        data: {
-            name: name,
-            phone: phone,
-            email: email,
-            message: message
-        },
-        dataType: "json",
-        success: function (data) {
-            if(data.success === true) {
-                alert(data.success);
-            } else {
+    var name = $('#name').val(),
+        phone = $('#phone').val(),
+        email = $('#email').val(),
+        message = $('#message').val();
+    if (validation(name, phone, email, message)) {
+        $.ajax({
+            url: "contact/save",
+            method: "POST",
+            data: {
+                name: name,
+                phone: phone,
+                email: email,
+                message: message
+            },
+            dataType: "json",
+            success: function (data) {
+                if (data.success === true) {
+                    $('#modalInfo').modal('show');
+                } else {
+
+                }
+            },
+            error: function (success) {
 
             }
-        },
-        error: function (success) {
-//            var alertmodal = $('#alertModal');
-//            alertmodal.find('.modal-body').text('Unable to globaly update order status');
-//            alertmodal.modal('show');
-        }
-    });
+        });
+    }
 });
+
+function validation(name, phone, email, message) {
+    clearborder();
+    var result = true;
+    // set border
+    if (!name) {
+        $('#name').css({"border": "2px solid red"});
+        result = false;
+    }
+    if (!phone) {
+        $('#phone').css({"border": "2px solid red"});
+        result = false;
+    }
+    if (!email) {
+        $('#email').css({"border": "2px solid red"});
+        result = false;
+    } else if (!validateEmail(email)) {
+        $('#email').css({"border": "2px solid red"});
+        result = false;
+    }
+    if (!message) {
+        $('#message').css({"border": "2px solid red"});
+        result = false;
+    }
+
+    // set focus
+    if (!name) {
+        $('#name').focus();
+    } else if (!phone) {
+        $('#phone').focus();
+    } else if (!email) {
+        $('#email').focus();
+    } else if (!validateEmail(email)) {
+        $('#email').focus();
+    } else if (!message) {
+        $('#message').focus();
+    }
+    return result;
+}
+
+function clearborder() {
+    $('#name').removeAttr('style');
+    $('#phone').removeAttr('style');
+    $('#email').removeAttr('style');
+    $('#message').removeAttr('style');
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}

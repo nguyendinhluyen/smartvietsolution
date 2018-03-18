@@ -40,27 +40,22 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 wow fadeInUp delay-06s">
-                    <div class="form">
-                        <div id="sendmessage">Chúng tôi đã nhận thông tin đăng ký. Cảm ơn!</div>
-                        <div id="errormessage"></div>
+                    <div class="form" data-toggle="validator">
                         <!--{!! Form::open(array('url' => route('server.contact.save'))) !!}-->
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Họ tên" data-rule="required" data-msg="Vui lòng nhập ho tên" />
-                            <div class="validation"></div>
+                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Họ tên" required>
                         </div>
                         <div class="form-group">
-                            <input type="phone" class="form-control input-text" name="phone" id="phone" placeholder="Số điện thoại" data-rule="required" data-msg="Vui lòng nhập đúng số điện thoại" />
-                            <div class="validation"></div>
+                            <input type="phone" class="form-control input-text" name="phone" id="phone" placeholder="Số điện thoại">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Email" data-rule="required" data-msg="Vui lòng nhập đúng địa chỉ email" />
-                            <div class="validation"></div>
-                        </div>                        
+                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Email">                            
+                        </div>
                         <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Vui lòng nhập nội dung" placeholder="Nội dung"></textarea>
-                            <div class="validation"></div>
+                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Nội dung"></textarea>
                         </div>
                         {!! Form::button('Gửi báo giá', array('type' => 'submit', 'class' => 'btn input-btn btnSave')) !!}
+                        <!-- Button trigger modal -->
                         <!--{!! Form::close() !!}-->
                     </div>
                 </div>
