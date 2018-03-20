@@ -28,6 +28,7 @@
         <script type="text/javascript" src={{ URL::asset("js/wow.js") }}></script>
         <script type="text/javascript" src={{ URL::asset("js/classie.js") }}></script>
         <script type="text/javascript" src={{ URL::asset("js/contactform.js") }}></script>        
+        <script type="text/javascript" src={{ URL::asset("js/jquery.mask.min.js") }}></script>                
     </head>
     <body>
         @include('layouts.master.header')

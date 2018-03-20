@@ -29,7 +29,7 @@
                         <h3>Nhận báo giá thiết kế</h3>
                         <p>Hãy đăng ký thông tin để nhận báo giá thiết kế.
                             SVS tự tin là nhà cung cấp dịch vụ website an toàn, bảo mật.
-                            SVS luôn đồng hành cùng sự thịnh vượng của doanh nghiệp</p>
+                            SVS luôn đồng hành cùng sự thịnh vượng của doanh nghiệp.</p>
                     </div>
                     <ul class="social-link">
                         <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa-twitter"></i></a></li>
@@ -44,18 +44,21 @@
                         <!--{!! Form::open(array('url' => route('server.contact.save'))) !!}-->
                         <div class="form-group">
                             <input type="text" name="name" class="form-control input-text" id="name" placeholder="Họ tên" required>
+                            <div class="form-group error-message-name" style="color: red"></div>
                         </div>
                         <div class="form-group">
                             <input type="phone" class="form-control input-text" name="phone" id="phone" placeholder="Số điện thoại">
+                            <div class="form-group error-message-phone" style="color: red"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Email">                            
+                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Email">
+                            <div class="form-group error-message-email" style="color: red"></div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" id="message" rows="5" placeholder="Nội dung"></textarea>
+                            <div class="form-group error-message-message" style="color: red; margin-top: 15px"></div>
                         </div>
-                        {!! Form::button('Gửi báo giá', array('type' => 'submit', 'class' => 'btn input-btn btnSave')) !!}
-                        <!-- Button trigger modal -->
+                        {!! Form::button('Gửi báo giá', array('type' => 'submit', 'class' => 'btn input-btn btnSave')) !!}                        
                         <!--{!! Form::close() !!}-->
                     </div>
                 </div>

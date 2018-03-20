@@ -299,12 +299,11 @@
             <div class="clear"></div>
         </div>
     </div>
+    <!--c-logo-part-start-->
+    <img src="img/poligan_bg.jpg" alt="các framework hiện đại" class="logo_framework">
+    <!--c-logo-part-end-->
 </section>
 <!--main-section client-part-end-->
-
-<!--c-logo-part-start-->
-<img src="img/poligan_bg.jpg" alt="các framework hiện đại" class="logo_framework">
-<!--c-logo-part-end-->
 
 <section class="main-section team" id="team">
     <!--main-section team-start-->

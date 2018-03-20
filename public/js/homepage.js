@@ -18,6 +18,8 @@ $(document).ready(function (e) {
         });
 
     });
+    // https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html#callback-examples
+    $('#phone').mask('0000-000-0000');
 });
 
 function resizeText() {
@@ -134,9 +136,9 @@ $(document).on('click', '.btnSave', function (e) {
         }
     });
     var name = $('#name').val(),
-        phone = $('#phone').val(),
-        email = $('#email').val(),
-        message = $('#message').val();
+            phone = $('#phone').val(),
+            email = $('#email').val(),
+            message = $('#message').val();
     if (validation(name, phone, email, message)) {
         $.ajax({
             url: "contact/save",
@@ -151,6 +153,10 @@ $(document).on('click', '.btnSave', function (e) {
             success: function (data) {
                 if (data.success === true) {
                     $('#modalInfo').modal('show');
+                    $('#name').val('');
+                    $('#phone').val('');
+                    $('#email').val('');
+                    $('#message').val('');
                 } else {
 
                 }
@@ -163,26 +169,30 @@ $(document).on('click', '.btnSave', function (e) {
 });
 
 function validation(name, phone, email, message) {
-    clearborder();
+    clearbordermessage();
     var result = true;
-    // set border
-    if (!name) {
+    if (!name.trim()) {
         $('#name').css({"border": "2px solid red"});
+        $('.error-message-name').text('Vui lòng nhập họ tên');
         result = false;
     }
-    if (!phone) {
+    if (!phone.trim()) {
         $('#phone').css({"border": "2px solid red"});
+        $('.error-message-phone').text('Vui lòng nhập số điện thoại');
         result = false;
     }
-    if (!email) {
+    if (!email.trim()) {
         $('#email').css({"border": "2px solid red"});
+        $('.error-message-email').text('Vui lòng nhập email');
         result = false;
     } else if (!validateEmail(email)) {
         $('#email').css({"border": "2px solid red"});
+        $('.error-message-email').text('Email không đúng');
         result = false;
     }
-    if (!message) {
+    if (!message.trim()) {
         $('#message').css({"border": "2px solid red"});
+        $('.error-message-message').text('Vui lòng nhập nội dung');
         result = false;
     }
 
@@ -201,11 +211,15 @@ function validation(name, phone, email, message) {
     return result;
 }
 
-function clearborder() {
+function clearbordermessage() {
     $('#name').removeAttr('style');
     $('#phone').removeAttr('style');
     $('#email').removeAttr('style');
     $('#message').removeAttr('style');
+    $('.error-message-name').text('');
+    $('.error-message-phone').text('');
+    $('.error-message-email').text('');
+    $('.error-message-message').text('');
 }
 
 function validateEmail(email) {
