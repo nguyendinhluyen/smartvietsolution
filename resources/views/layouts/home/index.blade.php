@@ -8,7 +8,7 @@
 
 <!--Customer benefit-->
 @include('layouts.home.customer')
-<!--End Customer benefit-->
+<!--End customer benefit-->
 
 <!-- Templates -->
 @include('layouts.home.templates')
@@ -18,9 +18,9 @@
 @include('layouts.home.marketing')
 <!-- End marketing -->
 
-<!-- Marketing -->
+<!-- About -->
 @include('layouts.home.about')
-<!-- End marketing -->
+<!-- End about -->
 
 <!--Popup-->
 @include('layouts.popup.info')
