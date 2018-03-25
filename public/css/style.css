@@ -1311,6 +1311,7 @@ img {
     top:50%;
     margin-top:-50px;
     text-align:center;
+    z-index: 1000;
 }
 
 .project-name {

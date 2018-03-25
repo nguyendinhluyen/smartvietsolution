@@ -177,18 +177,20 @@
             </div>
             <!--/Portfolio Item Normal Expander -->
 
-            <!-- Portfolio Item FullScreen Expander -->
+            <!-- Portfolio Item FullScreen Expander -->            
             <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  photography  branding web isotope-item">
                 <div class="portfolio-image"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
-                <div class="project-overlay">
-                    <div class="open-project-link"> <a class="open-project" href="http://clapat.ro/themes/newave/project-fullscreen-expander-1.html" title="Open Project"></a> </div>
-                    <div class="project-info">
+                <div class="project-overlay">                    
+                    <div class="open-project-link"> 
+                        <a class="open-project" title="Open Project"></a> 
+                    </div>                   
+                    <a class="project-info" href="{{ route('temp.boxify') }}" target="_blank">
                         <div class="zoom-icon"></div>
                         <h4 class="project-name">Nike Shoes</h4>
                         <p class="project-categories">Photography, Web, Branding</p>
-                    </div>
+                    </a>                                        
                 </div>
-            </div>
+            </div>            
             <!-- Portfolio Item FullScreen Expander -->
 
             <!-- Portfolio Item FullScreen Expander -->

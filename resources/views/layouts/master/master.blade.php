@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1">
         <title>@yield('title')</title>
-        <meta name="description" content="SmartVietSolution chuyên cung cấp dịch vụ website, dịch vụ">
-        <meta name="keywords" content="">
-        <meta name="author" content="">
+        <meta name="description" content="SmartVietSolution thiết kế website chuyên nghiệp theo chuẩn SEO">
+        <meta name="keywords" content="thiết kế web chuyên nghiệp,thiết kế web giá rẻ, thiết kế web chuẩn SEO">
+        <meta name="author" content="SmartVietSolution">
         <meta name="csrf-token" content="<?php echo csrf_token() ?>">
         <link rel="icon" href={{ URL::asset("favicon.png") }} type="image/png">
         <link href={{ URL::asset("css/bootstrap.css") }} rel="stylesheet" type="text/css">
