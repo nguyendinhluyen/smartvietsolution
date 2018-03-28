@@ -1,6 +1,6 @@
 <section id="service">
-    <div class="container">
-        <h2>Quyền lợi khách hàng</h2>
+    <div class="container">        
+        <h2>Quyền lợi khách hàng</h2>                
         <div class="service_area">
             <div class="row">
                 <div class="col-lg-4">

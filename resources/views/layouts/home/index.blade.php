@@ -11,7 +11,7 @@
 <!--End customer benefit-->
 
 <!-- Templates -->
-@include('layouts.home.templates')
+@include('layouts.home.templates.index')
 <!-- End templates -->
 
 <!-- Marketing -->

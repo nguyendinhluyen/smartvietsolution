@@ -1,5 +1,5 @@
 @extends('templates.boxify.master')
-@section('title', 'Boxify: Free HTML5/CSS3 Template')
+@section('title', 'Boxify: HTML5/CSS3 Template')
 @section('content')
 <header>
     <section class="hero">
@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row nav-wrapper">
                 <div class="col-md-6 col-sm-6 col-xs-6 text-left">
-                    <a href="#"><img src="img/logo-white.png" alt="Boxify Logo"></a>
+                    <a href="#"><img src="/templates/boxify/img/logo-white.png" alt="Boxify Logo"></a>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
                     <p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
@@ -16,7 +16,7 @@
             <div class="row hero-content">
                 <div class="col-md-12">
                     <h1 class="animated fadeInDown">An Exclusive, Premium HTML5 &amp; CSS3 Template created exlusively for Codrops.</h1>
-                    <a href="http://tympanus.net/codrops/?p=22554" class="use-btn animated fadeInUp">Use it for free</a> <a href="#about" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
+                    <a href="" class="use-btn animated fadeInUp">Use it for free</a> <a href="#about" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <div class="features-bg">
                     <div class="texture-overlay"></div>
                     <div class="features-img wp1">
-                        <img src="img/html5-logo.png" alt="HTML5 Logo">
+                        <img src="/templates/boxify/img/html5-logo.png" alt="HTML5 Logo">
                     </div>
                 </div>
             </div>
@@ -53,12 +53,12 @@
                         <li>
                             <h1>Multi-Purpose User Centric Design</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                            <p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
+                            <p><a href="" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
                         </li>
                         <li>
                             <h1>Made with Love, Released for Free</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-                            <p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
+                            <p><a href="" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
                         </li>
                     </ul>
                 </div>
@@ -78,7 +78,7 @@
                     <div class="feature-content">
                         <h1>Responsive</h1>
                         <p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
-                        <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                        <a href="" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 feature-2 wp2 delay-05s">
@@ -88,7 +88,7 @@
                     <div class="feature-content">
                         <h1>Multi-Purpose</h1>
                         <p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
-                        <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                        <a href="" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
                 <div class="col-md-4 feature-3 wp2 delay-1s">
@@ -98,7 +98,7 @@
                     <div class="feature-content">
                         <h1>Absolutely Free</h1>
                         <p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="#">buy me a beer</a>. </p>
-                        <a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
+                        <a href="" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
                     </div>
                 </div>
 
@@ -117,13 +117,13 @@
                             <div class="showcase-slider">
                                 <ul class="slides" id="showcaseSlider">
                                     <li>
-                                        <img src="img/screen1.jpg" alt="Device Content Image">
+                                        <img src="/templates/boxify/img/screen1.jpg" alt="Device Content Image">
                                     </li>
                                     <li>
-                                        <img src="img/screen2.jpg" alt="Device Content Image">
+                                        <img src="/templates/boxify/img/screen2.jpg" alt="Device Content Image">
                                     </li>
                                     <li>
-                                        <img src="img/screen3.jpg" alt="Device Content Image">
+                                        <img src="/templates/boxify/img/screen3.jpg" alt="Device Content Image">
                                     </li>
                                 </ul>
                             </div>
@@ -134,13 +134,13 @@
                     <h1>Showcase your Product or Service</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                     <blockquote class="team-quote">
-                        <div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
+                        <div class="avatar"><img src="/templates/boxify/img/avatar.png" alt="User Avatar"></div>
                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Steve Jobs</p>
                         <div class="logo-quote">
-                            <a href="http://tympanus.net/codrops/"><img src="img/codrops-logo.png" alt="Codrops Logo"></a>
+                            <a href=""><img src="/templates/boxify/img/codrops-logo.png" alt="Codrops Logo"></a>
                         </div>
                     </blockquote>
-                    <a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
+                    <a href="" class="download-btn">Download! <i class="fa fa-download"></i></a>
                 </div>
             </div>
         </div>
@@ -164,10 +164,10 @@
             <ul class="grid">
                 <li>
                     <figure>
-                        <img src="img/01-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/01-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/01.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/01.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>Optimised For Design</p>
                                 </a>
@@ -177,10 +177,10 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/02-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/02-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/02.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/02.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>User Centric Design</p>
                                 </a>
@@ -190,10 +190,10 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/03-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/03-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/03.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/03.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>Responsive and Adaptive</p>
                                 </a>
@@ -203,10 +203,10 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/04-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/04-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/04.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/04.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>Absolutely Free</p>
                                 </a>
@@ -220,10 +220,10 @@
             <ul class="grid">
                 <li>
                     <figure>
-                        <img src="img/05-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/05-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/05.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/05.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>Multi-Purpose Design</p>
                                 </a>
@@ -233,10 +233,10 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/06-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/06-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/06.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/06.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>Exclusive to Codrops</p>
                                 </a>
@@ -246,10 +246,10 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/07-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/07-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/07.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/07.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>Made with Love</p>
                                 </a>
@@ -259,10 +259,10 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="img/08-screenshot.jpg" alt="Screenshot 01">
+                        <img src="/templates/boxify/img/08-screenshot.jpg" alt="Screenshot 01">
                         <figcaption>
                             <div class="caption-content">
-                                <a href="img/large/08.jpg" class="single_image">
+                                <a href="/templates/boxify/img/large/08.jpg" class="single_image">
                                     <i class="fa fa-search"></i><br>
                                     <p>In Sydney, Australia</p>
                                 </a>
@@ -279,7 +279,7 @@
         <div class="row">
             <div class="col-md-12 text-center wp4">
                 <h1>Seen Enough?</h1>
-                <a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
+                <a href="" class="download-btn">Download! <i class="fa fa-download"></i></a>
             </div>
         </div>
     </div>
@@ -289,9 +289,9 @@
         <div class="row">
             <div class="col-md-5">
                 <h1 class="footer-logo">
-                    <img src="img/logo-blue.png" alt="Footer Logo Blue">
+                    <img src="/templates/boxify/img/logo-blue.png" alt="Footer Logo Blue">
                 </h1>
-                <p>A free website template created exclusively for <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
+                <p>A free website template created exclusively for <a href=""><em>Codrops</em></a></p>
             </div>
             <div class="col-md-7">
                 <ul class="footer-nav">
