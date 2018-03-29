@@ -36,6 +36,9 @@
 .clearfix:after {
     clear: both;
 }
+.clearfix {
+    padding-left: 0px;
+}
 ul{ list-style:none;}
 
 .figure{ margin:0px;}
@@ -127,10 +130,10 @@ p{
 /* Header Styles
 ---------------------------------*/
 
-#header_outer{
-    background: #f9f9f9;
+#header_outer{    
     padding:10px 0px;
-    background:url(../img/headerbg.png) no-repeat right bottom;
+    background:url(../img/headerbg.png) repeat right bottom;
+    margin-top: -2px;
 }
 
 .header_section{
@@ -169,14 +172,6 @@ p{
 .nav ul li{
     display:inline-block;
     margin:0 23px;
-}
-
-.nav ul li:first-child{
-    /*margin:0px;*/
-}
-
-.nav ul li:last-child{
-    margin:0 0 0 23px;
 }
 
 .nav ul li a{
