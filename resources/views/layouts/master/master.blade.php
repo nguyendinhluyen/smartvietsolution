@@ -10,10 +10,10 @@
         <meta name="csrf-token" content="<?php echo csrf_token() ?>">
         <link rel="icon" href={{ URL::asset("favicon.png") }} type="image/png">
         <link href={{ URL::asset("css/bootstrap.css") }} rel="stylesheet" type="text/css">
-        <link href={{ URL::asset("css/style.css") }} rel="stylesheet" type="text/css">
+        <link href={{ URL::asset("css/style.css") }}?v={{ time() }} rel="stylesheet" type="text/css">
         <link href={{ URL::asset("css/linecons.css") }} rel="stylesheet" type="text/css">
         <link href={{ URL::asset("css/font-awesome.css") }} rel="stylesheet" type="text/css">
-        <link href={{ URL::asset("css/responsive.css") }} rel="stylesheet" type="text/css">
+        <link href={{ URL::asset("css/responsive.css") }}?v={{ time() }} rel="stylesheet" type="text/css">
         <link href={{ URL::asset("css/animate.css") }} rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200" rel="stylesheet" type="text/css">
