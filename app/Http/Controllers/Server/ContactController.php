@@ -13,9 +13,9 @@ class ContactController extends BaseController {
             'name' => $request->name,
             'phone' => $request->phone,
             'email' => $request->email,
-            'message' => $request->message
-        ]);
-        // $contact = new Contact(Input::all());
+            'message' => $request->message,  
+            'created_at' => date('Y-m-d H:i:s')
+        ]);        
         return response()->json(['success' => true]);
     }
 
