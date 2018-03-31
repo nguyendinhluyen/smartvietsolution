@@ -648,12 +648,12 @@ img {
 
 .quote_section p {
     font-family: 'Roboto', sans-serif !important;
-    font-style: italic;
     font-size: 16px;
     font-weight: 300;
     color: #000;
     text-align: center;
     position: relative;
+    line-height: 25px;
 }
 
 .quote_section p b {

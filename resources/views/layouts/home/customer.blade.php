@@ -9,8 +9,10 @@
                             <img src="img/customer_number_one.png" alt="khách hàng là số 1">
                         </div>
                         <h3 class="animated fadeInUp wow">Khách hàng là số 1</h3>
-                        <p class="animated fadeInDown wow line-height-25">Khách hàng có thể liên lạc với <b>SVS</b> bất cứ lúc nào cần hỗ trợ <b>24/07</b>.
-                            <b>SVS</b> đảm bảo hệ thống website khách hàng luôn trong trạng thái sẵn sàng với tính ổn định cao nhất.</p>
+                        <p class="animated fadeInDown wow line-height-25">
+                            Với chính sách hỗ trợ <b>24/7</b>, khách hàng có thể liên hệ với <b>SVS</b>
+                            bất cứ thời điểm nào trong ngày để yêu cầu giải pháp cho mong muốn mà khách hàng đang hướng đến. <b>SVS</b> cam kết đảm bảo hệ thống website của doanh nghiệp luôn vận hành trơn tru với tính ổn định cao nhất.
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -18,9 +20,11 @@
                         <div class="service_icon delay-03s animated wow zoomIn">
                             <img src="img/customer.png" alt="bạn đồng hành">
                         </div>
-                        <h3 class="animated fadeInUp wow">Bạn đồng hành</h3>
-                        <p class="animated fadeInDown wow line-height-25">Phương châm khách hàng là <b>"bạn đồng hành"</b>, <b>SVS</b>
-                            không chỉ đơn thuần xây dựng website mà còn hướng tới tư vấn giá trị cốt lõi mà <b>"bạn đồng hành"</b> đang theo đuổi.
+                        <h3 class="animated fadeInUp wow">Giải pháp tối ưu</h3>
+                        <p class="animated fadeInDown wow line-height-25">
+                            Website là bộ mặt của doanh nghiệp, chứa đựng những thông tin trao gửi đến khách hàng mục tiêu mà doanh nghiệp hướng đến. 
+                            <b>SVS</b> với những giải pháp tối ưu của riêng mình, cam kết đem dến những website <b>giao diện đẹp</b>, 
+                            <b>chất lượng</b> và chứa đựng <b>đầy đủ thông tin</b> về doanh nghiệp.
                         </p>
                     </div>
                 </div>
@@ -30,8 +34,10 @@
                             <img src="img/security.png" alt="bảo mật tuyệt đối">
                         </div>
                         <h3 class="animated fadeInUp wow">Bảo mật tuyệt đối</h3>
-                        <p class="animated fadeInDown wow line-height-25"><b>SVS</b> ký kết bảo mật với <b>"bạn đồng hành"</b> những thông tin quan trọng, riêng tư.
-                            <b>SVS</b> tự tin là nhà cung cấp dịch vụ website bảo mật, an toàn với độ tin cậy cao.</p>
+                        <p class="animated fadeInDown wow line-height-25">
+                            Trong bối cảnh thời đại công nghệ thông tin bùng nổ, các đối tượng tội phạm công nghệ luôn tìm cách tấn công vào cơ sở dữ liệu của các doanh nghiệp dù lớn hay nhỏ, 
+                            <b>SVS</b> ký kết với khách hàng có giải pháp <b>bảo mật</b> cho những <b>thông tin quan trọng</b>, <b>riêng tư</b> với những người giàu kinh nghiệm.
+                        </p>                            
                     </div>
                 </div>
             </div>
