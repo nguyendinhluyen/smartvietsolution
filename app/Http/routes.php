@@ -14,7 +14,9 @@
 Route::get('/', ['as' => 'home', 'uses' => function () {
     return view('layouts/home/index');
 }]);
+Route::post('contact/save', ['as' => 'server.contact.save', 'uses' => 'Server\ContactController@SaveContact']);
+
+// Teamplates
 Route::get('temp/boxify', ['as' => 'temp.boxify', 'uses' => function () {
     return view('templates/boxify/index');    
 }]);
-Route::post('contact/save', ['as' => 'server.contact.save', 'uses' => 'Server\ContactController@SaveContact']);
