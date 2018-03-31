@@ -2,7 +2,11 @@
    Media Queries
    ========================================================================== */
 
-@media only screen and (max-width: 1380px) {}
+@media only screen and (max-width: 1380px) {
+    .img-logo {
+        width: 200px;
+    }
+}
 
 @media only screen and (min-width: 980px) and (max-width: 1200px) {
     .portfolioContainer {
@@ -96,7 +100,7 @@
     .top_cont_inner {
         background-size: 90% auto;
         -webkit-background-size: 90% auto;
-        padding-bottom: 68%;
+        padding-bottom: 20px;
     }
     .top_cont_latest {
         background-size: 90% auto;
@@ -230,7 +234,7 @@
         padding: 10px 25px;
     }
     .logo {
-        width: 100px;
+        width: 200px;
     }
     .main-section.contact {
         background-size: contain;
@@ -253,7 +257,7 @@
         float: none;
         position: absolute;
         width: 100%;
-        top: 73px;
+        top: 100px;
     }
     toggle.ul {
         background: #fff;
@@ -271,7 +275,7 @@
         padding: 6px 0px
     }
     .res-nav_click {
-        bottom: -42px;
+        bottom: -38px;
         display: block;
         font-size: 25px;
         left: 48%;

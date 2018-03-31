@@ -223,7 +223,6 @@ p {
 }
 
 .top_cont_inner {
-    background: url(../img/white_pad.png) no-repeat right bottom;
     margin-bottom: 5px;
 }
 
@@ -245,7 +244,7 @@ p {
 }
 
 .top_left_cont {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .top_left_cont h3 {
@@ -1795,4 +1794,8 @@ div.mc-image {
 
 .logo_framework {
     margin-top: 60px;
+}
+
+.text-align-justify {
+    text-align: justify;
 }
