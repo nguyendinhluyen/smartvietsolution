@@ -19,7 +19,7 @@
                     <div class="col-lg-4">
                         <div class="contact_block">
                             <img src="img/mail.png" alt="email công ty" style="width: 100px; padding-bottom: 20px">
-                            <span> <a href="mailto:hello@butterfly.com"> svs@gmail.com</a> </span> </div>
+                            <span> <a href="mailto:hello@butterfly.com">luyen.nguyen.itbb@jvn.edu.vn</a> </span> </div>
                     </div>
                 </div>
             </div>

@@ -145,35 +145,11 @@
                     <h3>This is the first news on blog</h3>
                     <p>Lorem ipsum dolor sit amet, conse ctetuer. Duis autem vemeu iriure dolor adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
                  </div>
-                 <!-- AD REGION -->
-                 <div class="advertising margin-bottom hide-s">
-                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                   <!-- Fashion 160x600 -->
-                   <ins class="adsbygoogle"
-                        style="display:inline-block;width:160px;height:600px"
-                        data-ad-client="ca-pub-8115128083480193"
-                        data-ad-slot="7468355662"></ins>
-                   <script>
-                   (adsbygoogle = window.adsbygoogle || []).push({});
-                   </script>
-                 </div>
                  <!-- NEWS 2 -->
                  <img src="/templates/fashion/img/news2.jpg" alt="News 2">
                  <div class="aside-block margin-bottom">
                     <h3>Second news on the fashion blog</h3>
                     <p>Lorem ipsum dolor sit amet, conse ctetuer. Duis autem vemeu iriure dolor adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
-                 </div>
-                 <!-- AD REGION -->
-                 <div class="advertising margin-bottom hide-s">
-                   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                   <!-- Fashion 160x600 -->
-                   <ins class="adsbygoogle"
-                        style="display:inline-block;width:160px;height:600px"
-                        data-ad-client="ca-pub-8115128083480193"
-                        data-ad-slot="7468355662"></ins>
-                   <script>
-                   (adsbygoogle = window.adsbygoogle || []).push({});
-                   </script>
                  </div>
               </aside>
            </div>

@@ -9,7 +9,7 @@
     </div>
     <a class="project-info" href="{{ route('temp.fashion.index') }}" target="_blank">
         <div class="zoom-icon"></div>
-        <h4 class="project-name">Fahsipn Template</h4>
+        <h4 class="project-name">Fashion Template</h4>
         <p class="project-categories">Thử trải nghiệm</p>
     </a>
 </div>
