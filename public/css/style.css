@@ -1347,7 +1347,7 @@ img {
 
 .portfolio-item .portfolio-image img {
     width: 100%;
-    height: auto;
+    height: 175px;
 }
 
 .portfolio-item:hover .project-overlay {

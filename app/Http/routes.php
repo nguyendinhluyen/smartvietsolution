@@ -17,6 +17,25 @@ Route::get('/', ['as' => 'home', 'uses' => function () {
 Route::post('contact/save', ['as' => 'server.contact.save', 'uses' => 'Server\ContactController@SaveContact']);
 
 // Teamplates
-Route::get('temp/boxify', ['as' => 'temp.boxify', 'uses' => function () {
-    return view('templates/boxify/index');    
-}]);
+Route::group(['prefix' => 'temp'], function () {
+    // Boxify
+    Route::get('boxify', ['as' => 'temp.boxify.index', 'uses' => function () {
+        return view('templates/boxify/index');
+    }]);
+    // Fashion
+    Route::group(['prefix' => 'fashion'], function () {
+        Route::get('/', ['as' => 'temp.fashion.index', 'uses' => function () {
+            return view('templates/fashion/index');
+        }]);
+        Route::get('about', ['as' => 'temp.fashion.about', 'uses' => function () {
+            return view('templates/fashion/about');
+        }]);
+        Route::get('archive', ['as' => 'temp.fashion.archive', 'uses' => function () {
+            return view('templates/fashion/archive');
+        }]);
+        Route::get('contact', ['as' => 'temp.fashion.contact', 'uses' => function () {
+            return view('templates/fashion/contact');
+        }]);
+    });
+});
+

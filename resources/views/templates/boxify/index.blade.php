@@ -291,7 +291,7 @@
                 <h1 class="footer-logo">
                     <img src="/templates/boxify/img/logo-blue.png" alt="Footer Logo Blue">
                 </h1>
-                <p>A free website template created exclusively for <a href=""><em>Codrops</em></a></p>
+                <p>Design and coding by <a href="http://smartvietsolution.com/"><em>SmartVietSolution (SVS)</em></a></p>
             </div>
             <div class="col-md-7">
                 <ul class="footer-nav">
