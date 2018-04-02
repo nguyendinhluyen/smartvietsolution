@@ -646,12 +646,11 @@ img {
     margin-left: 0px;
 }
 
-.quote_section p {
+.quote_section div {
     font-family: 'Roboto', sans-serif !important;
     font-size: 16px;
     font-weight: 300;
     color: #000;
-    text-align: center;
     position: relative;
     line-height: 25px;
 }

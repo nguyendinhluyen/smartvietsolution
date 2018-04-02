@@ -3,7 +3,7 @@
         <nav>
             <div class="top-nav">
             <p class="nav-text"></p>
-            <a class="logo" href="index.html">
+            <a class="logo" href="{{ route('temp.fashion.index') }}">
             Fashion<span>Blog</span>
             </a>
             <ul class="top-ul right">
@@ -20,10 +20,10 @@
                     <a href="{{ route('temp.fashion.contact') }}">Contact</a>
                 </li>
                 <div class="social right">
-                    <a target="_blank" href="">
+                    <a href="{{ route('temp.fashion.index') }}">
                     <i class="icon-facebook_circle icon2x"></i>
                     </a>
-                    <a target="_blank" href="">
+                    <a href="{{ route('temp.fashion.index') }}">
                     <i class="icon-twitter_circle icon2x"></i>
                     </a>
                 </div>

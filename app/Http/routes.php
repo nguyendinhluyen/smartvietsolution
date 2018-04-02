@@ -36,6 +36,9 @@ Route::group(['prefix' => 'temp'], function () {
         Route::get('contact', ['as' => 'temp.fashion.contact', 'uses' => function () {
             return view('templates/fashion/contact');
         }]);
+        Route::get('post', ['as' => 'temp.fashion.post', 'uses' => function () {
+            return view('templates/fashion/post');
+        }]);
     });
 });
 

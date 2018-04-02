@@ -10,7 +10,7 @@
                  <div class="post-1 line">
                     <!-- image -->
                     <div class="s-12 l-11 post-image">
-                       <a href="post-1.html"><img src="/templates/fashion/img/post1-big.jpg" alt="Fashion"></a>
+                       <a href="{{ route('temp.fashion.post') }}"><img src="/templates/fashion/img/post1-big.jpg" alt="Fashion"></a>
                     </div>
                     <!-- date -->
                     <div class="s-12 l-1 post-date">
@@ -20,7 +20,7 @@
                  </div>
                  <!-- text -->
                  <div class="post-text">
-                    <a href="post-1.html">
+                    <a href="{{ route('temp.fashion.post') }}">
                        <h2>Free responsive template</h2>
                     </a>
                     <p>
@@ -28,7 +28,7 @@
                        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
                        ex ea commodo consequat...
                     </p>
-                    <a class="continue-reading" href="post-1.html">Continue reading</a>
+                    <a class="continue-reading" href="{{ route('temp.fashion.post') }}">Continue reading</a>
                  </div>
               </article>
 
@@ -37,7 +37,7 @@
                  <div class="post-2 line">
                     <!-- image -->
                     <div class="s-12 l-11 post-image">
-                       <a href="post-2.html"><img src="/templates/fashion/img/post2-big.jpg" alt="Fashion"></a>
+                       <a href="{{ route('temp.fashion.post') }}"><img src="/templates/fashion/img/post2-big.jpg" alt="Fashion"></a>
                     </div>
                     <!-- date -->
                     <div class="s-12 l-1 post-date">
@@ -47,7 +47,7 @@
                  </div>
                  <!-- text -->
                  <div class="post-text">
-                    <a href="post-2.html">
+                    <a href="{{ route('temp.fashion.post') }}">
                        <h2>Amazing fashion blog</h2>
                     </a>
                     <p>
@@ -55,7 +55,7 @@
                        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
                        ex ea commodo consequat...
                     </p>
-                    <a class="continue-reading" href="post-2.html">Continue reading</a>
+                    <a class="continue-reading" href="{{ route('temp.fashion.post') }}">Continue reading</a>
                  </div>
               </article>
 
@@ -64,7 +64,7 @@
                  <div class="post-3 line">
                     <!-- image -->
                     <div class="s-12 l-11 post-image">
-                       <a href="post-3.html"><img src="/templates/fashion/img/post3-big.jpg" alt="Fashion"></a>
+                       <a href="{{ route('temp.fashion.post') }}"><img src="/templates/fashion/img/post3-big.jpg" alt="Fashion"></a>
                     </div>
                     <!-- date -->
                     <div class="s-12 l-1 post-date">
@@ -74,7 +74,7 @@
                  </div>
                  <!-- text -->
                  <div class="post-text">
-                    <a href="post-3.html">
+                    <a href="{{ route('temp.fashion.post') }}">
                        <h2>Nice minimalist design</h2>
                     </a>
                     <p>
@@ -82,7 +82,7 @@
                        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
                        ex ea commodo consequat...
                     </p>
-                    <a class="continue-reading" href="post-3.html">Continue reading</a>
+                    <a class="continue-reading" href="{{ route('temp.fashion.post') }}">Continue reading</a>
                  </div>
               </article>
 
@@ -91,7 +91,7 @@
                  <div class="post-4 line">
                     <!-- image -->
                     <div class="s-12 l-11 post-image">
-                       <a href="post-4.html"><img src="/templates/fashion/img/post4-big.jpg" alt="Fashion"></a>
+                       <a href="{{ route('temp.fashion.post') }}"><img src="/templates/fashion/img/post4-big.jpg" alt="Fashion"></a>
                     </div>
                     <!-- date -->
                     <div class="s-12 l-1 post-date">
@@ -101,7 +101,7 @@
                  </div>
                  <!-- text -->
                  <div class="post-text">
-                    <a href="post-4.html">
+                    <a href="{{ route('temp.fashion.post') }}">
                        <h2>With advertising regions</h2>
                     </a>
                     <p>
@@ -109,7 +109,7 @@
                        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
                        ex ea commodo consequat...
                     </p>
-                    <a class="continue-reading" href="post-4.html">Continue reading</a>
+                    <a class="continue-reading" href="{{ route('temp.fashion.post') }}">Continue reading</a>
                  </div>
               </article>
 
@@ -124,7 +124,7 @@
                  </div>
                  <!-- text -->
                  <div class="post-text">
-                    <a href="post-5.html">
+                    <a href="{{ route('temp.fashion.post') }}">
                        <h2>And again - it's totally free!</h2>
                     </a>
                     <p>
@@ -132,7 +132,7 @@
                        aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
                        ex ea commodo consequat...
                     </p>
-                    <a class="continue-reading" href="post-5.html">Continue reading</a>
+                    <a class="continue-reading" href="{{ route('temp.fashion.post') }}">Continue reading</a>
                  </div>
               </article>
            </div>

@@ -24,4 +24,4 @@
         @include('templates.fashion.footer')
     </body>
 </html>
-@yield('scripts')
+<script src="{{ asset ('templates/fashion/js/responsee.js') }}"></script>
