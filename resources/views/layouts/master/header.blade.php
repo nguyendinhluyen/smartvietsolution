@@ -8,7 +8,7 @@
             </div>
             <nav class="nav" id="nav">
                 <ul class="toggle">
-                    <li><a href="#top_content">Trang chủ</a></li>
+                    <li><a href="#top_content">Giá trị cốt lõi</a></li>
                     <li><a href="#service">Quyền lợi khách hàng</a></li>
                     <li><a href="#Portfolio">Mẫu thiết kế</a></li>
                     <li><a href="#client_outer">Marketing Online</a></li>
@@ -16,7 +16,7 @@
                     <li><a href="#contact">Liên hệ</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#top_content">Trang chủ</a></li>
+                    <li><a href="#top_content">Giá trị cốt lõi</a></li>
                     <li><a href="#service">Quyền lợi khách hàng</a></li>
                     <li><a href="#Portfolio">Mẫu thiết kế</a></li>
                     <li><a href="#client_outer">Marketing Online</a></li>

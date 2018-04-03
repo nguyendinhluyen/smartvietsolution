@@ -27,6 +27,11 @@
         padding: 20px 0px 0px 0px;
         margin-bottom: 5px;
     }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -154,7 +159,7 @@
         width: 100%;
         top: 74px;
         margin: 0 auto;
-        flote: none;
+        float: none;
         background: #fff;
     }
     .main-nav li {
@@ -233,9 +238,6 @@
         font-size: 14px;
         padding: 10px 25px;
     }
-    .logo {
-        width: 200px;
-    }
     .main-section.contact {
         background-size: contain;
     }
@@ -252,6 +254,7 @@
     .logo {
         margin: 0px auto 10px;
         float: none;
+        width: 200px;
     }
     .nav {
         float: none;
