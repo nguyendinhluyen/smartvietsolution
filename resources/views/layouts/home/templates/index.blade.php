@@ -22,17 +22,17 @@
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#" data-filter=".photography">
+                    <a class="" href="#" data-filter=".hotel">
                         <h5>Khách sạn</h5>
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#" data-filter=".videography">
+                    <a class="" href="#" data-filter=".food">
                         <h5>Ẩm thực</h5>
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#" data-filter=".web">
+                    <a class="" href="#" data-filter=".tour">
                         <h5>Du lịch</h5>
                     </a>
                 </li>
@@ -42,12 +42,12 @@
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#" data-filter=".spa">
+                    <a class="" href="#" data-filter=".fashion">
                         <h5>Thời trang</h5>
                     </a>
                 </li>
                 <li>
-                    <a class="" href="#" data-filter=".spa">
+                    <a class="" href="#" data-filter=".realestate">
                         <h5>Bất động sản</h5>
                     </a>
                 </li>

@@ -67,7 +67,7 @@
     </div>
     <div class="container">
         <div class="footer_bottom">
-            <span>© 2014 - 2018 SmartVietSolution - Công ty Phần Mềm Giải Pháp Việt</span>
+            <span>© 2014 - 2018 SmartVietSolution - Công ty TNHH TMDV Phần Mềm Giải Pháp Việt</span>
         </div>
     </div>
 </footer>

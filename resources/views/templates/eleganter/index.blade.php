@@ -400,7 +400,7 @@
                 <a class="tab-label">Campaigns</a>
                 <div class="tab-content lightbox-gallery">
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/portfolio-03.jpg">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/portfolio-03.jpg">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -408,11 +408,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-03.jpg" alt="" title="Portfolio Image 9" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-03.jpg" alt="" title="Portfolio Image 9" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/portfolio-01.jpg">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/portfolio-01.jpg">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -420,11 +420,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-01.jpg" alt="" title="Portfolio Image 10" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-01.jpg" alt="" title="Portfolio Image 10" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/video.mp4">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/video.mp4">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -432,11 +432,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-09.jpg" alt="" title="Portfolio Image 11" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-09.jpg" alt="" title="Portfolio Image 11" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/portfolio-14.jpg">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/portfolio-14.jpg">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -444,11 +444,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-14.jpg" alt="" title="Portfolio Image 12" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-14.jpg" alt="" title="Portfolio Image 12" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/portfolio-07.jpg">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/portfolio-07.jpg">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -456,11 +456,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-07.jpg" alt="" title="Portfolio Image 13" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-07.jpg" alt="" title="Portfolio Image 13" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/portfolio-13.jpg">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/portfolio-13.jpg">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -468,11 +468,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-13.jpg" alt="" title="Portfolio Image 14" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-13.jpg" alt="" title="Portfolio Image 14" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/video.mp4">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/video.mp4">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -480,11 +480,11 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-11.jpg" alt="" title="Portfolio Image 15" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-11.jpg" alt="" title="Portfolio Image 15" />
                         </a>
                     </div>
                     <div class="s-12 m-6 l-3">
-                        <a class="image-with-hover-overlay image-hover-zoom" href="img/portfolio/portfolio-04.jpg">
+                        <a class="image-with-hover-overlay image-hover-zoom" href="/templates/eleganter/img/portfolio/portfolio-04.jpg">
                             <div class="image-hover-overlay background-primary">
                                 <div class="image-hover-overlay-content text-center padding-2x">
                                     <h2 class="text-thin">Lorem Ipsum Dolor</h2>
@@ -492,7 +492,7 @@
                                         vel illum dolore eu feugiat nulla facilisis.</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/thumb-04.jpg" alt="" title="Portfolio Image 16" />
+                            <img src="/templates/eleganter/img/portfolio/thumb-04.jpg" alt="" title="Portfolio Image 16" />
                         </a>
                     </div>
                 </div>
@@ -508,21 +508,21 @@
             <div class="carousel-default owl-carousel carousel-wide-arrows">
                 <div class="item">
                     <div class="s-12 m-12 l-7 center text-center">
-                        <img class="image-testimonial-small" src="img/testimonials-04.png" alt="">
+                        <img class="image-testimonial-small" src="/templates/eleganter/img/testimonials-04.png" alt="">
                         <p class="h1 margin-bottom text-size-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
                         <p class="h1 text-size-16">Scott Star / CEO / Company</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="s-12 m-12 l-7 center text-center">
-                        <img class="image-testimonial-small" src="img/testimonials-05.png" alt="">
+                        <img class="image-testimonial-small" src="/templates/eleganter/img/testimonials-05.png" alt="">
                         <p class="h1 margin-bottom text-size-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
                         <p class="h1 text-size-16">Mark Stoner / Web Developer / Company</h5>
                     </div>
                 </div>
                 <div class="item">
                     <div class="s-12 m-12 l-7 center text-center">
-                        <img class="image-testimonial-small" src="img/testimonials-06.png" alt="">
+                        <img class="image-testimonial-small" src="/templates/eleganter/img/testimonials-06.png" alt="">
                         <p class="h1 margin-bottom text-size-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
                         <p class="h1 text-size-16">Jane Naismith / Web Designer / Company</p>
                     </div>

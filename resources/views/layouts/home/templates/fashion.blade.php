@@ -1,5 +1,5 @@
 <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-    class="portfolio-item one-four photography company web isotope-item">
+    class="portfolio-item one-four photography fashion web isotope-item">
 <div class="portfolio-image">
     <img src="img/fashion.jpg" alt="Fashion">
 </div>

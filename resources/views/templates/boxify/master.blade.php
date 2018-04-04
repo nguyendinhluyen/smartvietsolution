@@ -9,7 +9,7 @@
         <meta name="author" content="">
         <link rel="icon" href={{ URL::asset("favicon.png") }} type="image/png">
         <!-- Bootstrap -->
-        <script src={{ URL::asset("templates/boxify/css/js/modernizr.custom.js") }}></script>
+        <script src={{ URL::asset("templates/boxify/js/modernizr.custom.js") }}></script>
         <link href={{ URL::asset("templates/boxify/css/bootstrap.min.css") }} rel="stylesheet">
         <link href={{ URL::asset("templates/boxify/css/jquery.fancybox.css") }} rel="stylesheet">
         <link href={{ URL::asset("templates/boxify/css/flickity.css") }} rel="stylesheet">
