@@ -40,5 +40,25 @@ Route::group(['prefix' => 'temp'], function () {
             return view('templates/fashion/post');
         }]);
     });
+    // Eleganter
+    Route::group(['prefix' => 'eleganter'], function () {
+        Route::get('/', ['as' => 'temp.eleganter.index', 'uses' => function () {
+            return view('templates/eleganter/index');
+        }]);
+        Route::get('products', ['as' => 'temp.eleganter.products', 'uses' => function () {
+            return view('templates/eleganter/products');
+        }]);
+        Route::get('about', ['as' => 'temp.eleganter.about', 'uses' => function () {
+            return view('templates/eleganter/about');
+        }]);
+        Route::get('contact', ['as' => 'temp.eleganter.contact', 'uses' => function () {
+            return view('templates/eleganter/contact');
+        }]);
+        Route::get('premium', ['as' => 'temp.eleganter.premium', 'uses' => function () {
+            return view('templates/eleganter/premium');
+        }]);
+        Route::get('gallery', ['as' => 'temp.eleganter.gallery', 'uses' => function () {
+            return view('templates/eleganter/gallery');
+        }]);
+    });
 });
-
