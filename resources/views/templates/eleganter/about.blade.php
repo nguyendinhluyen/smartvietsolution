@@ -28,7 +28,7 @@
           <div class="line margin-top-30">
             <div class="margin">
               <div class="s-12 m-6 l-6">
-                <img src="img/img-01.jpg" alt="">
+                <img src="/templates/eleganter/img/img-01.jpg" alt="">
                 <p class="margin-top-30">
                 Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam;
                 est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
@@ -38,7 +38,7 @@
                 </p>
               </div>
               <div class="s-12 m-6 l-6">
-                <img src="img/img-02.jpg" alt="">
+                <img src="/templates/eleganter/img/img-02.jpg" alt="">
                 <p class="margin-top-30">
                 Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam;
                 est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
