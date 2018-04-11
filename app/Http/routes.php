@@ -61,4 +61,8 @@ Route::group(['prefix' => 'temp'], function () {
             return view('templates/eleganter/gallery');
         }]);
     });
+    // butterfly
+    Route::get('butterfly', ['as' => 'temp.butterfly.index', 'uses' => function () {
+        return view('templates/butterfly/index');
+    }]);
 });
