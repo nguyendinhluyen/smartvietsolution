@@ -28,5 +28,5 @@
 
 @endsection
 @section('scripts')
-<script src="{{ asset ('js/homepage.js') }}?v={{ time() }}" type="text/javascript"></script>
+<script src="{{ asset ('jsmin/homepage.min.js') }}?v={{ time() }}" type="text/javascript"></script>
 @endsection

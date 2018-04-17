@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.c-logo-part
  */
-$(document).ready(function (e) {
-    $('.res-nav_click').click(function () {
+$(document).ready(function(e) {
+    $('.res-nav_click').click(function() {
         $('ul.toggle').slideToggle(600)
     });
 
-    $(document).ready(function () {
-        $(window).bind('scroll', function () {
+    $(document).ready(function() {
+        $(window).bind('scroll', function() {
             if ($(window).scrollTop() > 0) {
                 $('#header_outer').addClass('fixed');
             } else {
@@ -32,9 +32,9 @@ function resizeText() {
 }
 
 
-$(document).ready(function (e) {
+$(document).ready(function(e) {
     $('#header_outer').scrollToFixed();
-    $('.res-nav_click').click(function () {
+    $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
         return false
 
@@ -48,8 +48,8 @@ wow = new WOW({
 });
 wow.init();
 
-$(window).load(function () {
-    $('a').bind('click', function (event) {
+$(window).load(function() {
+    $('a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 91
@@ -58,7 +58,7 @@ $(window).load(function () {
     });
 })
 
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
     // Portfolio Isotope
     var container = $('#portfolio-wrap');
     container.isotope({
@@ -70,7 +70,7 @@ jQuery(document).ready(function ($) {
         layoutMode: 'fitRows'
     });
 
-    $('#filters a').click(function () {
+    $('#filters a').click(function() {
         $('#filters a').removeClass('active');
         $(this).addClass('active');
         var selector = $(this).attr('data-filter');
@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
 
     function splitColumns() {
         var winWidth = $(window).width(),
-                columnNumb = 1;
+            columnNumb = 1;
         if (winWidth > 1024) {
             columnNumb = 4;
         } else if (winWidth > 900) {
@@ -99,10 +99,10 @@ jQuery(document).ready(function ($) {
 
     function setColumns() {
         var winWidth = $(window).width(),
-                columnNumb = splitColumns(),
-                postWidth = Math.floor(winWidth / columnNumb);
+            columnNumb = splitColumns(),
+            postWidth = Math.floor(winWidth / columnNumb);
 
-        container.find('.portfolio-item').each(function () {
+        container.find('.portfolio-item').each(function() {
             $(this).css({
                 width: postWidth + 'px'
             });
@@ -114,31 +114,31 @@ jQuery(document).ready(function ($) {
         container.isotope('reLayout');
     }
 
-    container.imagesLoaded(function () {
+    container.imagesLoaded(function() {
         setColumns();
     });
 
 
-    $(window).bind('resize', function () {
+    $(window).bind('resize', function() {
         setProjects();
     });
 
 });
-$(window).load(function () {
+$(window).load(function() {
     jQuery('#all').click();
     return false;
 });
 
-$(document).on('click', '.btnSave', function (e) {
+$(document).on('click', '.btnSave', function(e) {
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
     var name = $('#name').val(),
-            phone = $('#phone').val(),
-            email = $('#email').val(),
-            message = $('#message').val();
+        phone = $('#phone').val(),
+        email = $('#email').val(),
+        message = $('#message').val();
     if (validation(name, phone, email, message)) {
         $.ajax({
             url: "contact/save",
@@ -150,7 +150,7 @@ $(document).on('click', '.btnSave', function (e) {
                 message: message
             },
             dataType: "json",
-            success: function (data) {
+            success: function(data) {
                 if (data.success === true) {
                     $('#modalInfo').modal('show');
                     $('#name').val('');
@@ -161,7 +161,7 @@ $(document).on('click', '.btnSave', function (e) {
 
                 }
             },
-            error: function (success) {
+            error: function(success) {
 
             }
         });
@@ -172,26 +172,26 @@ function validation(name, phone, email, message) {
     clearbordermessage();
     var result = true;
     if (!name.trim()) {
-        $('#name').css({"border": "2px solid red"});
+        $('#name').css({ "border": "2px solid red" });
         $('.error-message-name').text('Vui lòng nhập họ tên');
         result = false;
     }
     if (!phone.trim()) {
-        $('#phone').css({"border": "2px solid red"});
+        $('#phone').css({ "border": "2px solid red" });
         $('.error-message-phone').text('Vui lòng nhập số điện thoại');
         result = false;
     }
     if (!email.trim()) {
-        $('#email').css({"border": "2px solid red"});
+        $('#email').css({ "border": "2px solid red" });
         $('.error-message-email').text('Vui lòng nhập email');
         result = false;
     } else if (!validateEmail(email)) {
-        $('#email').css({"border": "2px solid red"});
+        $('#email').css({ "border": "2px solid red" });
         $('.error-message-email').text('Email không đúng');
         result = false;
     }
     if (!message.trim()) {
-        $('#message').css({"border": "2px solid red"});
+        $('#message').css({ "border": "2px solid red" });
         $('.error-message-message').text('Vui lòng nhập nội dung');
         result = false;
     }
