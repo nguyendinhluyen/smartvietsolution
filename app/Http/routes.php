@@ -65,4 +65,13 @@ Route::group(['prefix' => 'temp'], function () {
     Route::get('butterfly', ['as' => 'temp.butterfly.index', 'uses' => function () {
         return view('templates/butterfly/index');
     }]);
+    // big store
+    Route::group(['prefix' => 'bigstore'], function () {
+        Route::get('/', ['as' => 'temp.bigstore.index', 'uses' => function () {
+            return view('templates/bigstore/index');
+        }]);
+        Route::get('kitchen', ['as' => 'temp.bigstore.kitchen', 'uses' => function () {
+            return view('templates/bigstore/kitchen');
+        }]);
+    });
 });
