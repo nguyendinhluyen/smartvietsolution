@@ -32,7 +32,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav ">
-                        <li class=" active"><a href="{{ route('temp.bigstore.kitchen') }}" class="hyper "><span>Home</span></a></li>
+                        <li class=" active"><a href="{{ route('temp.bigstore.index') }}" class="hyper "><span>Home</span></a></li>
 
                         <li class="dropdown ">
                             <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>Kitchen<b class="caret"></b></span></a>
