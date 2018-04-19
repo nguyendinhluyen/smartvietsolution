@@ -1,7 +1,7 @@
 <div class="header">
     <div class="container">
         <div class="logo">
-            <h1><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h1>
+            <h1><a href="{{ route('temp.bigstore.index') }}"><b>T<br>H<br>E</b>Big Store</h1>
         </div>
         <div class="head-t">
             <ul class="card">
@@ -32,7 +32,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav ">
-                        <li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>
+                        <li class=" active"><a href="{{ route('temp.bigstore.kitchen') }}" class="hyper "><span>Home</span></a></li>
 
                         <li class="dropdown ">
                             <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>Kitchen<b class="caret"></b></span></a>
@@ -144,7 +144,7 @@
                                 </div>
                             </ul>
                         </li>                     
-                        <li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
+                        <li><a href="{{ route('temp.bigstore.contact') }}" class="hyper"><span>Contact Us</span></a></li>
                     </ul>
                 </div>
             </nav>

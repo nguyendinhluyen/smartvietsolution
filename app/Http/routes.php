@@ -61,7 +61,7 @@ Route::group(['prefix' => 'temp'], function () {
             return view('templates/eleganter/gallery');
         }]);
     });
-    // butterfly
+    // butterfly - not yet public
     Route::get('butterfly', ['as' => 'temp.butterfly.index', 'uses' => function () {
         return view('templates/butterfly/index');
     }]);
@@ -72,6 +72,9 @@ Route::group(['prefix' => 'temp'], function () {
         }]);
         Route::get('kitchen', ['as' => 'temp.bigstore.kitchen', 'uses' => function () {
             return view('templates/bigstore/kitchen');
+        }]);
+        Route::get('contact', ['as' => 'temp.bigstore.contact', 'uses' => function () {
+            return view('templates/bigstore/contact');
         }]);
     });
 });
