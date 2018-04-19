@@ -76,5 +76,11 @@ Route::group(['prefix' => 'temp'], function () {
         Route::get('contact', ['as' => 'temp.bigstore.contact', 'uses' => function () {
             return view('templates/bigstore/contact');
         }]);
+        Route::get('login', ['as' => 'temp.bigstore.login', 'uses' => function () {
+            return view('templates/bigstore/login');
+        }]);
+        Route::get('register', ['as' => 'temp.bigstore.register', 'uses' => function () {
+            return view('templates/bigstore/register');
+        }]);
     });
 });
