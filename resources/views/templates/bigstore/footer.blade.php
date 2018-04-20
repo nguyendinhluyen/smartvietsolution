@@ -17,20 +17,20 @@
         <div class="col-md-3 footer-grid ">
             <h3>Customer Services</h3>
             <ul>
-                <li><a href="shipping.html">Shipping</a></li>
+                {{-- <li><a href="shipping.html">Shipping</a></li>
                 <li><a href="terms.html">Terms & Conditions</a></li>
-                <li><a href="faqs.html">Faqs</a></li>
+                <li><a href="faqs.html">Faqs</a></li> --}}
                 <li><a href="{{ route('temp.bigstore.contact') }}">Contact</a></li>
-                <li><a href="offer.html">Online Shopping</a></li>
+                {{-- <li><a href="offer.html">Online Shopping</a></li> --}}
 
             </ul>
         </div>
         <div class="col-md-3 footer-grid">
             <h3>My Account</h3>
             <ul>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="{{ route('temp.bigstore.login') }}">Login</a></li>
+                <li><a href="{{ route('temp.bigstore.register') }}">Register</a></li>
+                {{-- <li><a href="wishlist.html">Wishlist</a></li> --}}
 
             </ul>
         </div>

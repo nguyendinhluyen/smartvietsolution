@@ -48,7 +48,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Moong</a>(1 kg)</h6>
+                                        <h6><a href="">Moong</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$2.00</label><em class="item_price">$1.50</em></p>
@@ -73,7 +73,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Sunflower Oil</a>(5 kg)</h6>
+                                        <h6><a href="">Sunflower Oil</a>(5 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$10.00</label><em class="item_price">$9.00</em></p>
@@ -98,7 +98,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Kabuli Chana</a>(1 kg)</h6>
+                                        <h6><a href="">Kabuli Chana</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$3.00</label><em class="item_price">$2.00</em></p>
@@ -123,7 +123,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Soya Chunks</a>(1 kg)</h6>
+                                        <h6><a href="">Soya Chunks</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -153,7 +153,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Lays</a>(100 g)</h6>
+                                        <h6><a href="">Lays</a>(100 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$1.00</label><em class="item_price">$0.70</em></p>
@@ -178,7 +178,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Kurkure</a>(100 g)</h6>
+                                        <h6><a href="">Kurkure</a>(100 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$1.00</label><em class="item_price">$0.70</em></p>
@@ -203,7 +203,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Popcorn</a>(250 g)</h6>
+                                        <h6><a href="">Popcorn</a>(250 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$2.00</label><em class="item_price">$1.00</em></p>
@@ -228,7 +228,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Nuts</a>(250 g)</h6>
+                                        <h6><a href="">Nuts</a>(250 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -258,7 +258,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Banana</a>(6 pcs)</h6>
+                                        <h6><a href="">Banana</a>(6 pcs)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$2.00</label><em class="item_price">$1.50</em></p>
@@ -283,7 +283,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Onion</a>(1 kg)</h6>
+                                        <h6><a href="">Onion</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$1.00</label><em class="item_price">$0.70</em></p>
@@ -308,7 +308,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html"> Bitter Gourd</a>(1 kg)</h6>
+                                        <h6><a href=""> Bitter Gourd</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$2.00</label><em class="item_price">$1.00</em></p>
@@ -333,7 +333,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Apples</a>(1 kg)</h6>
+                                        <h6><a href="">Apples</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -363,7 +363,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Honey</a>(500 g)</h6>
+                                        <h6><a href="">Honey</a>(500 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$7.00</label><em class="item_price">$6.00</em></p>
@@ -388,7 +388,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Chocos</a>(250 g)</h6>
+                                        <h6><a href="">Chocos</a>(250 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$5.00</label><em class="item_price">$4.50</em></p>
@@ -413,7 +413,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Oats</a>(1 kg)</h6>
+                                        <h6><a href="">Oats</a>(1 kg)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -438,7 +438,7 @@
                                 </a>
                                 <div class="mid-1">
                                     <div class="women">
-                                        <h6><a href="single.html">Bread</a>(500 g)</h6>
+                                        <h6><a href="">Bread</a>(500 g)</h6>
                                     </div>
                                     <div class="mid-2">
                                         <p><label>$1.00</label><em class="item_price">$0.80</em></p>
@@ -479,7 +479,7 @@
         </div>
         <div class="col-md-4 m-w3ls1">
             <div class="col-md ">
-                <a href="hold.html">
+                <a href="">
                     <img src="/templates/bigstore/images/co.jpg" class="img-responsive img" alt="">
                     <div class="big-sale">
                         <div class="big-sale1">
@@ -501,7 +501,7 @@
                 </a>
             </div>
             <div class="col-md3 ">
-                <a href="hold.html">
+                <a href="">
                     <img src="/templates/bigstore/images/co3.jpg" class="img-responsive img1" alt="">
                     <div class="big-sale3">
                         <h3>Vegeta<span>bles</span></h3>
@@ -530,7 +530,7 @@
             <a href="care.html"> <img class="second-slide " src="/templates/bigstore/images/ba1.jpg" alt="Second slide"></a>
         </div>
         <div class="item">
-            <a href="hold.html"><img class="third-slide " src="/templates/bigstore/images/ba2.jpg" alt="Third slide"></a>
+            <a href=""><img class="third-slide " src="/templates/bigstore/images/ba2.jpg" alt="Third slide"></a>
         </div>
     </div>
 </div>
@@ -555,7 +555,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">Moisturiser</a>(500 g)</h6>
+                            <h6><a href="">Moisturiser</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$7.00</label><em class="item_price">$6.00</em></p>
@@ -577,7 +577,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">  Lady Finger</a>(250 g)</h6>
+                            <h6><a href="">  Lady Finger</a>(250 g)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$5.00</label><em class="item_price">$4.50</em></p>
@@ -599,7 +599,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html"> Ribbon</a>(1 pc)</h6>
+                            <h6><a href=""> Ribbon</a>(1 pc)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -621,7 +621,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">Grapes</a>(500 g)</h6>
+                            <h6><a href="">Grapes</a>(500 g)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$1.00</label><em class="item_price">$0.80</em></p>
@@ -644,7 +644,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">Clips</a>(1 pack)</h6>
+                            <h6><a href="">Clips</a>(1 pack)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$7.00</label><em class="item_price">$6.00</em></p>
@@ -666,7 +666,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">Conditioner</a>(250 g)</h6>
+                            <h6><a href="">Conditioner</a>(250 g)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$5.00</label><em class="item_price">$4.50</em></p>
@@ -688,7 +688,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">Cleaner</a>(250 kg)</h6>
+                            <h6><a href="">Cleaner</a>(250 kg)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -710,7 +710,7 @@
                     </a>
                     <div class="mid-1">
                         <div class="women">
-                            <h6><a href="single.html">Gel</a>(150 g)</h6>
+                            <h6><a href="">Gel</a>(150 g)</h6>
                         </div>
                         <div class="mid-2">
                             <p><label>$1.00</label><em class="item_price">$0.80</em></p>
