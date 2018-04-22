@@ -6,7 +6,7 @@
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon delay-03s animated wow zoomIn">
-                            <img src="img/customer_number_one.png" alt="khách hàng là số 1">
+                            <img src="img/customer_number_one.jpg" alt="khách hàng là số 1">
                         </div>
                         <h3 class="animated fadeInUp wow">Khách hàng là số 1</h3>
                         <p class="animated fadeInDown wow line-height-25 text-align-justify">
@@ -18,7 +18,7 @@
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon delay-03s animated wow zoomIn">
-                            <img src="img/customer.png" alt="bạn đồng hành">
+                            <img src="img/customer.jpg" alt="bạn đồng hành">
                         </div>
                         <h3 class="animated fadeInUp wow">Giải pháp tối ưu</h3>
                         <p class="animated fadeInDown wow line-height-25 text-align-justify">
@@ -31,7 +31,7 @@
                 <div class="col-lg-4">
                     <div class="service_block">
                         <div class="service_icon delay-03s animated wow zoomIn">
-                            <img src="img/security.png" alt="bảo mật tuyệt đối">
+                            <img src="img/security.jpg" alt="bảo mật tuyệt đối">
                         </div>
                         <h3 class="animated fadeInUp wow">Bảo mật tuyệt đối</h3>
                         <p class="animated fadeInDown wow line-height-25 text-align-justify">

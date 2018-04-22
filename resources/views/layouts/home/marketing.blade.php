@@ -3,7 +3,7 @@
     <div class="client_area ">
         <div class="client_section animated  fadeInUp wow">
             <div class="client_profile">
-                <div class="client_profile_pic"><img src="img/facebook_ads.png" alt="facebook ads"></div>
+                <div class="client_profile_pic"><img src="img/facebook_ads.jpg" alt="facebook ads"></div>
             </div>
             <div class="quote_section">
                 <div class="quote_arrow"></div>
@@ -19,7 +19,7 @@
         </div>
         <div class="client_section animated  fadeInDown wow">
             <div class="client_profile flt">
-                <div class="client_profile_pic"><img src="img/seo_optimization.png" alt=""></div>
+                <div class="client_profile_pic"><img src="img/seo_optimization.jpg" alt=""></div>
             </div>
             <div class="quote_section flt">
                 <div class="quote_arrow2"></div>

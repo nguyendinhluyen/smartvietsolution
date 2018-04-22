@@ -55,6 +55,7 @@
         </div>
         <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap">
             @include('layouts.home.templates.company')
+            @include('layouts.home.templates.ecomercial')
             @include('layouts.home.templates.fashion')
         </div>
     </div>

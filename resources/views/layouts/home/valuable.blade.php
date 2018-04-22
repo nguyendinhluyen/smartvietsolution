@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 col-sm-12 white-pad">
-                        <img src="img/white_pad.png" alt="giá trị cốt lõi" width="100%">
+                        <img src="img/white_pad.jpg" alt="giá trị cốt lõi" width="100%">
                     </div>
                 </div>
             </div>
