@@ -34,6 +34,6 @@
             </div>
             <div class="clear"></div>
         </div>
-    </div>    
-    <img src="img/poligan_bg.jpg" alt="các framework hiện đại" class="logo_framework">    
+        <img src="img/poligan_bg.jpg" alt="các framework hiện đại" class="logo_framework">    
+    </div>        
 </section>
