@@ -3,7 +3,7 @@
         <h2>Mẫu thiết kế</h2>
     </div>
     <div class="portfolio-top"></div>
-    <div class="portfolio">
+    <div class="portfolio container">
         <div id="filters" class="sixteen columns">
             <ul class="clearfix">
                 <li>

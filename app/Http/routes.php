@@ -61,11 +61,11 @@ Route::group(['prefix' => 'temp'], function () {
             return view('templates/eleganter/gallery');
         }]);
     });
-    // butterfly - not yet public
+    // Butterfly - not yet public
     Route::get('butterfly', ['as' => 'temp.butterfly.index', 'uses' => function () {
         return view('templates/butterfly/index');
     }]);
-    // big store
+    // Big store
     Route::group(['prefix' => 'bigstore'], function () {
         Route::get('/', ['as' => 'temp.bigstore.index', 'uses' => function () {
             return view('templates/bigstore/index');
@@ -81,6 +81,63 @@ Route::group(['prefix' => 'temp'], function () {
         }]);
         Route::get('register', ['as' => 'temp.bigstore.register', 'uses' => function () {
             return view('templates/bigstore/register');
+        }]);
+    });
+    // Gorocy store
+    Route::group(['prefix' => 'gorocystore'], function () {
+        Route::get('/', ['as' => 'temp.gorocystore.index', 'uses' => function () {
+            return view('templates/gorocystore/index');
+        }]);
+        Route::get('products', ['as' => 'temp.gorocystore.products', 'uses' => function () {
+            return view('templates/gorocystore/products');
+        }]);
+        Route::get('vegetables', ['as' => 'temp.gorocystore.vegetables', 'uses' => function () {
+            return view('templates/gorocystore/vegetables');
+        }]);
+        Route::get('single', ['as' => 'temp.gorocystore.single', 'uses' => function () {
+            return view('templates/gorocystore/single');
+        }]);
+        Route::get('household', ['as' => 'temp.gorocystore.household', 'uses' => function () {
+            return view('templates/gorocystore/household');
+        }]);
+        Route::get('kitchen', ['as' => 'temp.gorocystore.kitchen', 'uses' => function () {
+            return view('templates/gorocystore/kitchen');
+        }]);
+        Route::get('drinks', ['as' => 'temp.gorocystore.drinks', 'uses' => function () {
+            return view('templates/gorocystore/drinks');
+        }]);
+        Route::get('pet', ['as' => 'temp.gorocystore.pet', 'uses' => function () {
+            return view('templates/gorocystore/pet');
+        }]);
+        Route::get('bread', ['as' => 'temp.gorocystore.bread', 'uses' => function () {
+            return view('templates/gorocystore/bread');
+        }]);
+        Route::get('frozen', ['as' => 'temp.gorocystore.frozen', 'uses' => function () {
+            return view('templates/gorocystore/frozen');
+        }]);
+        Route::get('events', ['as' => 'temp.gorocystore.events', 'uses' => function () {
+            return view('templates/gorocystore/events');
+        }]);
+        Route::get('login', ['as' => 'temp.gorocystore.login', 'uses' => function () {
+            return view('templates/gorocystore/login');
+        }]);
+        Route::get('mail', ['as' => 'temp.gorocystore.mail', 'uses' => function () {
+            return view('templates/gorocystore/mail');
+        }]);
+        Route::get('about', ['as' => 'temp.gorocystore.about', 'uses' => function () {
+            return view('templates/gorocystore/about');
+        }]);
+        Route::get('services', ['as' => 'temp.gorocystore.services', 'uses' => function () {
+            return view('templates/gorocystore/services');
+        }]);
+        Route::get('faqs', ['as' => 'temp.gorocystore.faqs', 'uses' => function () {
+            return view('templates/gorocystore/faqs');
+        }]);
+        Route::get('privacy', ['as' => 'temp.gorocystore.privacy', 'uses' => function () {
+            return view('templates/gorocystore/privacy');
+        }]);
+        Route::get('checkout', ['as' => 'temp.gorocystore.checkout', 'uses' => function () {
+            return view('templates/gorocystore/checkout');
         }]);
     });
 });
