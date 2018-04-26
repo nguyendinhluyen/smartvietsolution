@@ -36,6 +36,9 @@
 
 @media only screen and (max-width: 991px) {
     /****Mobile Landscape 480 Container 100% ****/
+    #portfolio-wrap .one-four {
+        width: 50% !important;
+    }
     #Portfolio {
         margin-bottom: 5px;
     }
@@ -312,6 +315,9 @@
 
 @media only screen and (max-width: 479px) {
     /****Mobile Portrait 320 ****/
+    #portfolio-wrap .one-four {
+        width: 100% !important;
+    }
     #filters ul li {
         display: block;
     }
