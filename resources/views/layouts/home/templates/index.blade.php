@@ -5,7 +5,7 @@
     <div class="portfolio-top"></div>
     <div class="portfolio container">
         <div id="filters" class="sixteen columns">
-            <ul class="clearfix">
+            {{-- <ul class="clearfix">
                 <li>
                     <a id="all" href="#" data-filter="*" class="active">
                         <h5>Tất cả</h5>
@@ -51,7 +51,7 @@
                         <h5>Bất động sản</h5>
                     </a>
                 </li>
-            </ul>
+            </ul> --}}
         </div>
         <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap">
             @include('layouts.home.templates.company')
