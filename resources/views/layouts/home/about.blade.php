@@ -1,4 +1,4 @@
-<section class="main-section team" id="team">    
+{{-- <section class="main-section team" id="team">    
     <div class="container">
         <h2>Về SVS</h2>
         <div class="team-leader-block clearfix">
@@ -52,7 +52,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <section class="twitter-feed">
     <div class="container  animated fadeInDown delay-07s wow">        
         <h1 class="line-height-30">SmartVietSolution (SVS) chuyên thiết kế website chuyên nghiệp, bảo mật và an toàn tuyệt đối với giá cả hợp lý.
